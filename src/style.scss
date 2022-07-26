@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  h1 {
+    margin: 5rem 0 3rem;
+    font-size: 3.4rem;
+    text-align: center;
+  }
+
+  #wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+    h2 {
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+    }
+
+    >* {
+      width: 70%;
+    }
+
+    #recent-scores {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      button {
+        padding: 0.4rem 1.2rem;
+        width: max-content;
+      }
+
+      table {
+        width: 100%;
+
+        tbody {
+          tr {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #000;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+
+            :nth-child(even) {
+              background-color: rgb(231, 231, 231);
+            }
+          }
+        }
+      }
+    }
+
+    #add-score {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      gap: 2rem;
+
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+
+        >* {
+          width: 100%;
+        }
+
+        :nth-child(3) {
+          padding: 0.4rem 1.2rem;
+          width: max-content;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  main {
+    h1 {
+      margin: 5rem 0 3rem 10%;
+      text-align: left;
+    }
+
+    #wrap {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 5%;
+
+      #recent-scores {
+        width: 50%;
+      }
+
+      #add-score {
+        width: 25%;
+
+        form {
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}
