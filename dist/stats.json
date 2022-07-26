@@ -1,8 +1,8 @@
 {
-  "hash": "bffc4df8ae5ed90b02ae",
+  "hash": "266b54e66d76d9251362",
   "version": "5.74.0",
-  "time": 36,
-  "builtAt": 1658854567850,
+  "time": 74,
+  "builtAt": 1658861079944,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-4/Leaderboard/dist",
   "assetsByChunkName": {
@@ -10,15 +10,14 @@
       "index.bundle.js"
     ],
     "runtime": [
-      "runtime.bundle.js",
-      "runtime.3855dc1f68ba63a20076.hot-update.js"
+      "runtime.bundle.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 179196,
+      "size": 206574,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -27,7 +26,7 @@
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 179196
+        "size": 206574
       },
       "chunkNames": [
         "index"
@@ -40,13 +39,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 226106,
+          "size": 249637,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "development": true,
-            "size": 226106
+            "size": 249637
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -71,16 +70,16 @@
     {
       "type": "asset",
       "name": "runtime.bundle.js",
-      "size": 45034,
-      "emitted": true,
+      "size": 45156,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "javascriptModule": false,
         "related": {
           "sourceMap": "runtime.bundle.js.map"
         },
-        "size": 45034
+        "size": 45156
       },
       "chunkNames": [
         "runtime"
@@ -93,68 +92,13 @@
         {
           "type": "sourceMap",
           "name": "runtime.bundle.js.map",
-          "size": 42905,
-          "emitted": true,
+          "size": 42989,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
-            "size": 42905
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "runtime"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "runtime"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "runtime"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.3855dc1f68ba63a20076.hot-update.js",
-      "size": 362,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3855dc1f68ba63a20076",
-        "related": {
-          "sourceMap": "runtime.3855dc1f68ba63a20076.hot-update.js.map"
-        },
-        "size": 362
-      },
-      "chunkNames": [
-        "runtime"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "runtime.3855dc1f68ba63a20076.hot-update.js.map",
-          "size": 257,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 257
+            "size": 42989
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -179,34 +123,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 345,
+      "size": 1105,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 345
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.3855dc1f68ba63a20076.hot-update.json",
-      "size": 31,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3855dc1f68ba63a20076",
-        "size": 31
+        "size": 1105
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -224,9 +146,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 161513,
+      "size": 178629,
       "sizes": {
-        "javascript": 161513
+        "javascript": 178629
       },
       "names": [
         "index"
@@ -241,7 +163,7 @@
       "auxiliaryFiles": [
         "index.bundle.js.map"
       ],
-      "hash": "70e80fc24c59e26eca8f",
+      "hash": "7051f03b568520811ac2",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -358,6 +280,513 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 5782,
+          "sizes": {
+            "javascript": 5782
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "index": 30,
+          "preOrderIndex": 30,
+          "index2": 30,
+          "postOrderIndex": 30,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "8:6-140",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "22:17-24",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "26:7-21",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "58:25-39",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "59:36-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "59:50-64",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "module.hot.accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "61:4-74:5",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony accept",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "63:6-73:7",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "64:54-65",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "64:68-82",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "70:42-53",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "70:56-70",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "72:21-28",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "83:0-110",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony export imported specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "83:0-110",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "84:22-29",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "84:33-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+              "loc": "84:50-64",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2318,
+          "sizes": {
+            "javascript": 2318
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+          "index": 32,
+          "preOrderIndex": 32,
+          "index2": 29,
+          "postOrderIndex": 29,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "7:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 688,
+          "sizes": {
+            "javascript": 688
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "index": 31,
+          "preOrderIndex": 31,
+          "index2": 28,
+          "postOrderIndex": 28,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "2:0-106",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "4:58-95",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
         },
         {
           "type": "module",
@@ -777,6 +1206,576 @@
           ],
           "optimizationBailout": [],
           "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2500,
+          "sizes": {
+            "javascript": 2500
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "index": 24,
+          "preOrderIndex": 24,
+          "index2": 22,
+          "postOrderIndex": 22,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "2:6-95",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "22:13-16",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "75:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1005,
+          "sizes": {
+            "javascript": 1005
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "index": 26,
+          "preOrderIndex": 26,
+          "index2": 24,
+          "postOrderIndex": 24,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "4:6-92",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "loc": "17:23-36",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "39:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 286,
+          "sizes": {
+            "javascript": 286
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "index": 28,
+          "preOrderIndex": 28,
+          "index2": 26,
+          "postOrderIndex": 26,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "6:6-104",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "loc": "20:29-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "11:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 300,
+          "sizes": {
+            "javascript": 300
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "index": 27,
+          "preOrderIndex": 27,
+          "index2": 25,
+          "postOrderIndex": 25,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "5:6-111",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "loc": "15:24-37",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "12:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1412,
+          "sizes": {
+            "javascript": 1412
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "index": 25,
+          "preOrderIndex": 25,
+          "index2": 23,
+          "postOrderIndex": 23,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "3:6-85",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "loc": "19:17-23",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "70:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 382,
+          "sizes": {
+            "javascript": 382
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "index": 29,
+          "preOrderIndex": 29,
+          "index2": 27,
+          "postOrderIndex": 27,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "issuerName": "./src/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "name": "./src/style.scss",
+              "id": "./src/style.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "issuerId": "./src/style.scss",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "7:6-104",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "module": "./src/style.scss",
+              "moduleName": "./src/style.scss",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+              "resolvedModule": "./src/style.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "loc": "14:28-47",
+              "moduleId": "./src/style.scss",
+              "resolvedModuleId": "./src/style.scss"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "16:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
         },
         {
           "type": "module",
@@ -2667,9 +3666,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1,
+          "size": 22,
           "sizes": {
-            "javascript": 1
+            "javascript": 22
           },
           "built": false,
           "codeGenerated": false,
@@ -2680,8 +3679,8 @@
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 22,
-          "postOrderIndex": 22,
+          "index2": 32,
+          "postOrderIndex": 32,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2715,9 +3714,73 @@
             }
           ],
           "usedExports": null,
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [],
           "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2422,
+          "sizes": {
+            "javascript": 2422
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "index": 23,
+          "preOrderIndex": 23,
+          "index2": 31,
+          "postOrderIndex": 31,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/style.scss",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./style.scss",
+              "loc": "1:0-22",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
         }
       ],
       "origins": [
@@ -2745,13 +3808,13 @@
       ]
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 30026,
+      "size": 30061,
       "sizes": {
-        "runtime": 30026
+        "runtime": 30061
       },
       "names": [
         "runtime"
@@ -2761,14 +3824,12 @@
         "runtime"
       ],
       "files": [
-        "runtime.bundle.js",
-        "runtime.3855dc1f68ba63a20076.hot-update.js"
+        "runtime.bundle.js"
       ],
       "auxiliaryFiles": [
-        "runtime.3855dc1f68ba63a20076.hot-update.js.map",
         "runtime.bundle.js.map"
       ],
-      "hash": "a568e8e9fa7cff5ce88c",
+      "hash": "7a00785aed551f9ac521",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -2786,9 +3847,9 @@
             "runtime": 886
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/chunk loaded",
           "name": "webpack/runtime/chunk loaded",
           "nameForCondition": null,
@@ -2822,9 +3883,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -2858,9 +3919,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -2894,9 +3955,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -2930,9 +3991,9 @@
             "runtime": 93
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -2966,9 +4027,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -3002,9 +4063,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -3038,9 +4099,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -3074,9 +4135,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -3110,9 +4171,9 @@
             "runtime": 15904
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -3146,9 +4207,9 @@
             "runtime": 1508
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -3182,11 +4243,47 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "runtime": 35
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "webpack/runtime/nonce",
+          "name": "webpack/runtime/nonce",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -3218,9 +4315,9 @@
             "runtime": 867
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -3384,9 +4481,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1,
+      "size": 22,
       "sizes": {
-        "javascript": 1
+        "javascript": 22
       },
       "built": false,
       "codeGenerated": false,
@@ -3397,8 +4494,8 @@
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
       "index": 22,
       "preOrderIndex": 22,
-      "index2": 22,
-      "postOrderIndex": 22,
+      "index2": 32,
+      "postOrderIndex": 32,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -3431,7 +4528,7 @@
         }
       ],
       "usedExports": null,
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [],
       "depth": 0
     },
@@ -4872,6 +5969,69 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 2422,
+      "sizes": {
+        "javascript": 2422
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "name": "./src/style.scss",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "index": 23,
+      "preOrderIndex": 23,
+      "index2": 31,
+      "postOrderIndex": 31,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/style.scss",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./style.scss",
+          "loc": "1:0-22",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 868,
       "sizes": {
         "javascript": 868
@@ -5496,6 +6656,876 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 2500,
+      "sizes": {
+        "javascript": 2500
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "index": 24,
+      "preOrderIndex": 24,
+      "index2": 22,
+      "postOrderIndex": 22,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "2:6-95",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "22:13-16",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "75:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1412,
+      "sizes": {
+        "javascript": 1412
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "index": 25,
+      "preOrderIndex": 25,
+      "index2": 23,
+      "postOrderIndex": 23,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "3:6-85",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "19:17-23",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "70:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1005,
+      "sizes": {
+        "javascript": 1005
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "index": 26,
+      "preOrderIndex": 26,
+      "index2": 24,
+      "postOrderIndex": 24,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "4:6-92",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "17:23-36",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "39:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 300,
+      "sizes": {
+        "javascript": 300
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "index": 27,
+      "preOrderIndex": 27,
+      "index2": 25,
+      "postOrderIndex": 25,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "5:6-111",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "15:24-37",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "12:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 286,
+      "sizes": {
+        "javascript": 286
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "index": 28,
+      "preOrderIndex": 28,
+      "index2": 26,
+      "postOrderIndex": 26,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "6:6-104",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "20:29-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "11:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 382,
+      "sizes": {
+        "javascript": 382
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "index": 29,
+      "preOrderIndex": 29,
+      "index2": 27,
+      "postOrderIndex": 27,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "7:6-104",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "14:28-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "16:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 5782,
+      "sizes": {
+        "javascript": 5782
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "index": 30,
+      "preOrderIndex": 30,
+      "index2": 30,
+      "postOrderIndex": 30,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerId": "./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "8:6-140",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "22:17-24",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "26:7-21",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "58:25-39",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "59:36-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "59:50-64",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "module.hot.accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "61:4-74:5",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony accept",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "63:6-73:7",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "64:54-65",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "64:68-82",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "70:42-53",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "70:56-70",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "72:21-28",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "83:0-110",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "83:0-110",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "84:22-29",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "84:33-47",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./src/style.scss",
+          "moduleName": "./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss",
+          "loc": "84:50-64",
+          "moduleId": "./src/style.scss",
+          "resolvedModuleId": "./src/style.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 74412,
       "sizes": {
         "javascript": 74412
@@ -5720,6 +7750,204 @@
     },
     {
       "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 688,
+      "sizes": {
+        "javascript": 688
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "index": 31,
+      "preOrderIndex": 31,
+      "index2": 28,
+      "postOrderIndex": 28,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "2:0-106",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "4:58-95",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2318,
+      "sizes": {
+        "javascript": 2318
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+      "index": 32,
+      "preOrderIndex": 32,
+      "index2": 29,
+      "postOrderIndex": 29,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./src/style.scss",
+          "id": "./src/style.scss"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
       "moduleType": "runtime",
       "layer": null,
       "size": 886,
@@ -5727,9 +7955,9 @@
         "runtime": 886
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/chunk loaded",
       "name": "webpack/runtime/chunk loaded",
       "nameForCondition": null,
@@ -5762,9 +7990,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -5797,9 +8025,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -5832,9 +8060,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -5867,9 +8095,9 @@
         "runtime": 93
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -5902,9 +8130,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -5937,9 +8165,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -5972,9 +8200,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -6007,9 +8235,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -6042,9 +8270,9 @@
         "runtime": 15904
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -6077,9 +8305,9 @@
         "runtime": 1508
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -6112,11 +8340,46 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "runtime": 35
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "webpack/runtime/nonce",
+      "name": "webpack/runtime/nonce",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
@@ -6147,9 +8410,9 @@
         "runtime": 867
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -6184,35 +8447,27 @@
       "assets": [
         {
           "name": "runtime.bundle.js",
-          "size": 45034
-        },
-        {
-          "name": "runtime.3855dc1f68ba63a20076.hot-update.js",
-          "size": 362
+          "size": 45156
         },
         {
           "name": "index.bundle.js",
-          "size": 179196
+          "size": 206574
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 224592,
+      "assetsSize": 251730,
       "auxiliaryAssets": [
         {
           "name": "index.bundle.js.map",
-          "size": 226106
-        },
-        {
-          "name": "runtime.3855dc1f68ba63a20076.hot-update.js.map",
-          "size": 257
+          "size": 249637
         },
         {
           "name": "runtime.bundle.js.map",
-          "size": 42905
+          "size": 42989
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 269268,
+      "auxiliaryAssetsSize": 292626,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -6228,35 +8483,27 @@
       "assets": [
         {
           "name": "runtime.bundle.js",
-          "size": 45034
-        },
-        {
-          "name": "runtime.3855dc1f68ba63a20076.hot-update.js",
-          "size": 362
+          "size": 45156
         },
         {
           "name": "index.bundle.js",
-          "size": 179196
+          "size": 206574
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 224592,
+      "assetsSize": 251730,
       "auxiliaryAssets": [
         {
           "name": "index.bundle.js.map",
-          "size": 226106
-        },
-        {
-          "name": "runtime.3855dc1f68ba63a20076.hot-update.js.map",
-          "size": 257
+          "size": 249637
         },
         {
           "name": "runtime.bundle.js.map",
-          "size": 42905
+          "size": 42989
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 269268,
+      "auxiliaryAssetsSize": 292626,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -6266,668 +8513,5 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": [
-    {
-      "name": "HtmlWebpackCompiler",
-      "hash": "d4d89d78ff407efdce71",
-      "version": "5.74.0",
-      "time": 20,
-      "builtAt": 1658854567840,
-      "publicPath": "",
-      "outputPath": "/home/tlm-89/repos/Module2/week-4/Leaderboard/dist",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 1327,
-          "sizes": {
-            "javascript": 592,
-            "runtime": 735
-          },
-          "names": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "idHints": [],
-          "runtime": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "files": [],
-          "auxiliaryFiles": [],
-          "hash": "51db23c92c03f2d201e5",
-          "childrenByOrder": {},
-          "id": "HtmlWebpackPlugin_0-12",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 515,
-              "sizes": {
-                "javascript": 515
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "1:111-125",
-                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "loc": "HtmlWebpackPlugin_0-12",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 1:111-125"
-              ],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/esm",
-              "layer": null,
-              "size": 77,
-              "sizes": {
-                "javascript": 77
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-                  "loc": "HtmlWebpackPlugin_0-12",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 88,
-              "sizes": {
-                "runtime": 88
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 274,
-              "sizes": {
-                "runtime": 274
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 27,
-              "sizes": {
-                "runtime": 27
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/publicPath",
-              "name": "webpack/runtime/publicPath",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 346,
-              "sizes": {
-                "runtime": 346
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/require chunk loading",
-              "name": "webpack/runtime/require chunk loading",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-12"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-12",
-              "request": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html"
-            },
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-12",
-              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/esm",
-          "layer": null,
-          "size": 77,
-          "sizes": {
-            "javascript": 77
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "index": 0,
-          "preOrderIndex": 0,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "loc": "HtmlWebpackPlugin_0-12",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 515,
-          "sizes": {
-            "javascript": 515
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "1:111-125",
-              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "loc": "HtmlWebpackPlugin_0-12",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": null,
-              "active": true,
-              "explanation": "used as library export",
-              "userRequest": null,
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:111-125"
-          ],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 88,
-          "sizes": {
-            "runtime": 88
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/hasOwnProperty shorthand",
-          "name": "webpack/runtime/hasOwnProperty shorthand",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 274,
-          "sizes": {
-            "runtime": 274
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 27,
-          "sizes": {
-            "runtime": 27
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/publicPath",
-          "name": "webpack/runtime/publicPath",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 346,
-          "sizes": {
-            "runtime": 346
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/require chunk loading",
-          "name": "webpack/runtime/require chunk loading",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        }
-      ],
-      "entrypoints": {
-        "HtmlWebpackPlugin_0-12": {
-          "name": "HtmlWebpackPlugin_0-12",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "HtmlWebpackPlugin_0-12": {
-          "name": "HtmlWebpackPlugin_0-12",
-          "chunks": [
-            "HtmlWebpackPlugin_0-12"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    }
-  ]
+  "children": []
 }
