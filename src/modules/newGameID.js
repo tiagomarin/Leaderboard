@@ -4,17 +4,18 @@ const newGameID = async (str) => {
     body: JSON.stringify(
       {
         name: str,
-      }
+      },
     ),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
-  })
+  });
   if (response.ok) {
-    let json = await response.json();
+    const json = await response.json();
     window.localStorage.setItem('Game ID', JSON.stringify(json.result.split(' ')[3]));
     return json.result.split(' ')[3];
-  } 
+  }
+  return response;
 };
 
 export default newGameID;
