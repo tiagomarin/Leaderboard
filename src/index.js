@@ -11,6 +11,7 @@ const checkGameID = () => {
   return newGameID('TiagosGame');
 };
 const gameID = checkGameID();
+console.log(gameID);
 const refreshBtn = document.getElementById('refresh');
 const userName = document.getElementById('name');
 const userScore = document.getElementById('score');

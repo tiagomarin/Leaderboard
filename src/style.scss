@@ -18,6 +18,10 @@ html {
   margin: 0;
 }
 
+body {
+  background-image: url(../assets/background-portrait.png);
+}
+
 main {
   h1 {
     margin: 5rem 0 3rem;
@@ -51,7 +55,7 @@ main {
         display: flex;
         width: 100%;
         align-items: center;
-        justify-content: space-between;
+        // gap: 2rem;
       }
 
       button {
@@ -59,53 +63,95 @@ main {
         width: max-content;
       }
 
-      table {
-        width: 100%;
-
-        tbody {
-          tr {
-            display: flex;
-            flex-direction: column;
-            border: 1px solid #000;
-            font-size: 1.4rem;
-            line-height: 2.2rem;
-
-            :nth-child(even) {
-              background-color: rgb(231, 231, 231);
-            }
-          }
-        }
-      }
-    }
-
-    #add-score {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      gap: 2rem;
-
-      form {
+      #scores-placeholder {
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
+        justify-content: space-between;
+        gap: 1rem;
 
-        >* {
-          width: 100%;
-        }
+        div {
+          gap: 2rem;
 
-        :nth-child(3) {
-          padding: 0.4rem 1.2rem;
-          width: max-content;
+          div {
+            width: 70%;
+            display: flex;
+            justify-content: flex-start;
+            gap: 0;
+            background-color: #dddedd;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 0 50px 30px #ff7321 inset;
+            -moz-box-shadow: 0 0 5px 2px #ff7321 inset;
+            box-shadow: 0 0 5px 2px #3d3d3d inset;
+
+            img {
+              padding: 0 1.2rem;
+            }
+
+            .position {
+              text-align: center;
+              width: 40px;
+            }
+
+
+          }
+
+          .player {
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+          }
+
+          .score {
+            width: 6rem;
+            text-align: center;
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            background-color: #dddedd;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 0 50px 30px #ff7321 inset;
+            -moz-box-shadow: 0 0 3px 1px #ff7321 inset;
+            box-shadow: 0 0 3px 1px #ff7321 inset;
+          }
         }
       }
+
+
     }
   }
 }
 
+#add-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    >* {
+      width: 100%;
+    }
+
+    :nth-child(3) {
+      padding: 0.4rem 1.2rem;
+      width: max-content;
+    }
+  }
+}
+
+
+
 @media screen and (min-width: 640px) {
+  body {
+    background: url(../assets/background-landscape.png) center fixed;
+  }
+
   main {
     h1 {
       margin: 5rem 0 3rem 10%;
