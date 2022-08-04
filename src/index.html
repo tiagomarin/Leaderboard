@@ -10,13 +10,18 @@
 
 <body>
   <main>
-    <h1>Leaderboard</h1>
+    <div class="heading">
+      <h1>Leaderboard</h1>
+      <button id="start-new-game-desktop" class="start-new-game">Start New Game</button>
+    </div>
     <section id="intro">
       <div>
-        <p>Wanna return to previously scores set on another device?</p>
-        <input id="game-id-user" type="text" placeholder="insert here your game ID">
-        <p>or</p>
+        <p>Create a new game:</p>
+        <input id="game-name-user" type="text" placeholder="New game's name">
         <button id="new-game">new game</button>
+        <p>or insert your game ID to return to previously scores set on another device:</p>
+        <input id="game-id-user" type="text" placeholder="insert here your game ID">
+        <button id="old-game">old game</button>
       </div>
     </section>
     <div id="wrap">
@@ -30,10 +35,13 @@
       <section id="add-score">
         <h2>Add Your Score</h2>
         <input id="name" type="text" placeholder="Your Name" required>
+        <small id="error-name" class="hide"></small>
         <input id="score" type="text" placeholder="Your Score" required>
+        <small id="error-score" class="hide"></small>
         <button id="submit-btn">Add Score</button>
       </section>
     </div>
+    <button id="start-new-game-mobile" class="start-new-game">Start New Game</button>
     <section id="display-ID">
       <p>This is your game id: <span id="game-id"></span> <br>
         To open on another device please copy this id and use it to locate your scores</p>

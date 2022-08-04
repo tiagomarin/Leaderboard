@@ -1,10 +1,15 @@
-import newGameID from './newGameID';
+import { displayID, introSection, boardSection, gameIdSpan } from './domElements';
 
 const checkGameID = () => {
-  if (window.localStorage.getItem('Game ID')) {
-    return JSON.parse(window.localStorage.getItem('Game ID'));
-  }
-  return newGameID('TiagosGame');
+	if (!window.localStorage.getItem('Game ID')) {
+		boardSection.classList.add("hide")
+		displayID.classList.add("hide")
+	} else {
+		introSection.classList.add("hide")
+		const gameID = JSON.parse(window.localStorage.getItem('Game ID'))
+		gameIdSpan.innerText = gameID;
+		return gameID;
+	}
 };
 
 export default checkGameID;

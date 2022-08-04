@@ -1,4 +1,9 @@
+import { displayID, introSection, boardSection } from './domElements';
+
 const renderScores = () => {
+  introSection.classList.add("hide");
+  boardSection.classList.remove("hide");
+  displayID.classList.remove("hide");
   const scores = JSON.parse(window.localStorage.getItem('scoresDatabase'));
   const scoresPlaceholder = document.getElementById('scores-placeholder');
   while (scoresPlaceholder.firstChild) {

@@ -1,18 +1,16 @@
 {
-  "hash": "ddc2d53fa02d98a97c7d",
+  "hash": "1795921ac0812d61b1e9",
   "version": "5.74.0",
-  "time": 52,
-  "builtAt": 1659572866585,
+  "time": 59,
+  "builtAt": 1659653200170,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-4/Leaderboard/dist",
   "assetsByChunkName": {
     "index": [
-      "index.bundle.js",
-      "index.1ed9aa80ab27693e570d.hot-update.js"
+      "index.bundle.js"
     ],
     "runtime": [
-      "runtime.bundle.js",
-      "runtime.1ed9aa80ab27693e570d.hot-update.js"
+      "runtime.bundle.js"
     ]
   },
   "assets": [
@@ -71,16 +69,16 @@
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 227208,
-      "emitted": true,
+      "size": 237880,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "javascriptModule": false,
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 227208
+        "size": 237880
       },
       "chunkNames": [
         "index"
@@ -93,13 +91,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 269239,
-          "emitted": true,
+          "size": 277447,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
-            "size": 269239
+            "size": 277447
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -125,9 +123,9 @@
       "type": "asset",
       "name": "runtime.bundle.js",
       "size": 45206,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "javascriptModule": false,
         "related": {
@@ -147,9 +145,9 @@
           "type": "sourceMap",
           "name": "runtime.bundle.js.map",
           "size": 43039,
-          "emitted": true,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
             "size": 43039
@@ -176,145 +174,13 @@
     },
     {
       "type": "asset",
-      "name": "index.1ed9aa80ab27693e570d.hot-update.js",
-      "size": 2311,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "1ed9aa80ab27693e570d",
-        "related": {
-          "sourceMap": "index.1ed9aa80ab27693e570d.hot-update.js.map"
-        },
-        "size": 2311
-      },
-      "chunkNames": [
-        "index"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "index.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 1511,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 1511
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "index"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "index"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "index"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "index.html",
-      "size": 1573,
+      "size": 2056,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1573
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.1ed9aa80ab27693e570d.hot-update.js",
-      "size": 362,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "1ed9aa80ab27693e570d",
-        "related": {
-          "sourceMap": "runtime.1ed9aa80ab27693e570d.hot-update.js.map"
-        },
-        "size": 362
-      },
-      "chunkNames": [
-        "runtime"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "runtime.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 257,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 257
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "runtime"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "runtime"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "runtime"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.1ed9aa80ab27693e570d.hot-update.json",
-      "size": 39,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "1ed9aa80ab27693e570d",
-        "size": 39
+        "size": 2056
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -328,13 +194,13 @@
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 6904099,
+      "size": 6909716,
       "sizes": {
-        "javascript": 193499,
+        "javascript": 199116,
         "asset": 6710600
       },
       "names": [
@@ -345,16 +211,14 @@
         "runtime"
       ],
       "files": [
-        "index.bundle.js",
-        "index.1ed9aa80ab27693e570d.hot-update.js"
+        "index.bundle.js"
       ],
       "auxiliaryFiles": [
         "056dac04be287ef9dc02.png",
         "7a5d1ed00fa9c37cda53.png",
-        "index.1ed9aa80ab27693e570d.hot-update.js.map",
         "index.bundle.js.map"
       ],
-      "hash": "d7c1b66c102f24df2f97",
+      "hash": "0814596f250c57deecf6",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -622,9 +486,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 15757,
+          "size": 17575,
           "sizes": {
-            "javascript": 15757
+            "javascript": 17575
           },
           "built": false,
           "codeGenerated": false,
@@ -4018,20 +3882,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "index"
           ],
@@ -4117,21 +3981,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1062,
+          "size": 2438,
           "sizes": {
-            "javascript": 1062
+            "javascript": 2438
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
           "name": "./src/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 41,
-          "postOrderIndex": 41,
+          "index2": 43,
+          "postOrderIndex": 43,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4173,9 +4037,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 246,
+          "size": 430,
           "sizes": {
-            "javascript": 246
+            "javascript": 430
           },
           "built": false,
           "codeGenerated": false,
@@ -4184,8 +4048,8 @@
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
           "name": "./src/modules/checkGameID.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "index": 40,
-          "preOrderIndex": 40,
+          "index": 41,
+          "preOrderIndex": 41,
           "index2": 40,
           "postOrderIndex": 40,
           "cacheable": true,
@@ -4235,7 +4099,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/checkGameID",
-              "loc": "15:15-26",
+              "loc": "13:15-26",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4251,9 +4115,937 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 503,
+          "size": 882,
           "sizes": {
-            "javascript": 503
+            "javascript": 882
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "name": "./src/modules/checkInput.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "index": 43,
+          "preOrderIndex": 43,
+          "index2": 42,
+          "postOrderIndex": 42,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/checkInput.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "11:0-71",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "31:6-20",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "32:31-45",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "39:6-21",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "40:32-47",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "47:6-20",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "47:49-64",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "50:13-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "51:10-24",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "52:13-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/checkInput",
+              "loc": "53:10-25",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "checkInputName",
+            "checkInputScore"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1162,
+          "sizes": {
+            "javascript": 1162
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
+          "name": "./src/modules/domElements.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
+          "index": 39,
+          "preOrderIndex": 39,
+          "index2": 35,
+          "postOrderIndex": 35,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/domElements.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "7:0-9:31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "17:0-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "18:66-83",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "22:0-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "23:12-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "25:2-22",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "25:25-40",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "26:56-71",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "30:0-25",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "31:21-35",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "32:4-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "32:46-60",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "34:4-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "38:0-26",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "39:22-37",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "40:4-29",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "40:48-63",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "42:4-29",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "46:0-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "47:21-35",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "47:65-80",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "48:32-46",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "48:48-63",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "50:28-42",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "51:25-39",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "51:41-56",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "52:29-43",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "53:26-40",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "53:42-57",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "57:0-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "61:0-30",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "62:2-31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "63:2-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "64:2-25",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "67:0-30",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "68:2-31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "69:2-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "70:2-25",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "module": "./src/modules/checkGameID.js",
+              "moduleName": "./src/modules/checkGameID.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "resolvedModule": "./src/modules/checkGameID.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "1:0-82",
+              "moduleId": "./src/modules/checkGameID.js",
+              "resolvedModuleId": "./src/modules/checkGameID.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "module": "./src/modules/checkGameID.js",
+              "moduleName": "./src/modules/checkGameID.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "resolvedModule": "./src/modules/checkGameID.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "5:2-28",
+              "moduleId": "./src/modules/checkGameID.js",
+              "resolvedModuleId": "./src/modules/checkGameID.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "module": "./src/modules/checkGameID.js",
+              "moduleName": "./src/modules/checkGameID.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "resolvedModule": "./src/modules/checkGameID.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "6:2-25",
+              "moduleId": "./src/modules/checkGameID.js",
+              "resolvedModuleId": "./src/modules/checkGameID.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "module": "./src/modules/checkGameID.js",
+              "moduleName": "./src/modules/checkGameID.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "resolvedModule": "./src/modules/checkGameID.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "8:2-28",
+              "moduleId": "./src/modules/checkGameID.js",
+              "resolvedModuleId": "./src/modules/checkGameID.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "module": "./src/modules/checkGameID.js",
+              "moduleName": "./src/modules/checkGameID.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+              "resolvedModule": "./src/modules/checkGameID.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "10:2-22",
+              "moduleId": "./src/modules/checkGameID.js",
+              "resolvedModuleId": "./src/modules/checkGameID.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "module": "./src/modules/renderScores.js",
+              "moduleName": "./src/modules/renderScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "resolvedModule": "./src/modules/renderScores.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "1:0-70",
+              "moduleId": "./src/modules/renderScores.js",
+              "resolvedModuleId": "./src/modules/renderScores.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "module": "./src/modules/renderScores.js",
+              "moduleName": "./src/modules/renderScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "resolvedModule": "./src/modules/renderScores.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "4:2-28",
+              "moduleId": "./src/modules/renderScores.js",
+              "resolvedModuleId": "./src/modules/renderScores.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "module": "./src/modules/renderScores.js",
+              "moduleName": "./src/modules/renderScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "resolvedModule": "./src/modules/renderScores.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "5:2-31",
+              "moduleId": "./src/modules/renderScores.js",
+              "resolvedModuleId": "./src/modules/renderScores.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "module": "./src/modules/renderScores.js",
+              "moduleName": "./src/modules/renderScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+              "resolvedModule": "./src/modules/renderScores.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "6:2-28",
+              "moduleId": "./src/modules/renderScores.js",
+              "resolvedModuleId": "./src/modules/renderScores.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "addScoreBtn",
+            "boardSection",
+            "displayID",
+            "gameIdSpan",
+            "introSection",
+            "newGameBtn",
+            "newGameName",
+            "oldGameBtn",
+            "oldGameID",
+            "refreshBtn",
+            "smallNameError",
+            "smallScoreError",
+            "startNewGameD",
+            "startNewGameM",
+            "userName",
+            "userScore"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 507,
+          "sizes": {
+            "javascript": 507
           },
           "built": false,
           "codeGenerated": false,
@@ -4264,36 +5056,59 @@
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
           "index": 37,
           "preOrderIndex": 37,
-          "index2": 35,
-          "postOrderIndex": 35,
+          "index2": 37,
+          "postOrderIndex": 37,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "issuerName": "./src/modules/saveScore.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
               "name": "./src/index.js",
               "id": "./src/index.js"
-            },
-            {
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-              "name": "./src/modules/saveScore.js",
-              "id": "./src/modules/saveScore.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/modules/getScores.js",
-          "issuerId": "./src/modules/saveScore.js",
+          "issuerId": "./src/index.js",
           "chunks": [
             "index"
           ],
           "assets": [],
           "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/getScores",
+              "loc": "10:0-44",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/getScores",
+              "loc": "23:2-11",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
               "module": "./src/modules/saveScore.js",
@@ -4328,15 +5143,15 @@
             "default"
           ],
           "optimizationBailout": [],
-          "depth": 2
+          "depth": 1
         },
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 552,
+          "size": 554,
           "sizes": {
-            "javascript": 552
+            "javascript": 554
           },
           "built": false,
           "codeGenerated": false,
@@ -4345,65 +5160,60 @@
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
           "name": "./src/modules/newGameID.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
-          "index": 41,
-          "preOrderIndex": 41,
-          "index2": 39,
-          "postOrderIndex": 39,
+          "index": 42,
+          "preOrderIndex": 42,
+          "index2": 41,
+          "postOrderIndex": 41,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "issuerName": "./src/modules/checkGameID.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
               "name": "./src/index.js",
               "id": "./src/index.js"
-            },
-            {
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-              "name": "./src/modules/checkGameID.js",
-              "id": "./src/modules/checkGameID.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/modules/newGameID.js",
-          "issuerId": "./src/modules/checkGameID.js",
+          "issuerId": "./src/index.js",
           "chunks": [
             "index"
           ],
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-              "module": "./src/modules/checkGameID.js",
-              "moduleName": "./src/modules/checkGameID.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-              "resolvedModule": "./src/modules/checkGameID.js",
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
-              "userRequest": "./newGameID",
-              "loc": "1:0-36",
-              "moduleId": "./src/modules/checkGameID.js",
-              "resolvedModuleId": "./src/modules/checkGameID.js"
+              "userRequest": "./modules/newGameID",
+              "loc": "6:0-44",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
             },
             {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-              "module": "./src/modules/checkGameID.js",
-              "moduleName": "./src/modules/checkGameID.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-              "resolvedModule": "./src/modules/checkGameID.js",
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
-              "userRequest": "./newGameID",
-              "loc": "7:9-18",
-              "moduleId": "./src/modules/checkGameID.js",
-              "resolvedModuleId": "./src/modules/checkGameID.js"
+              "userRequest": "./modules/newGameID",
+              "loc": "18:56-65",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
             }
           ],
           "usedExports": null,
@@ -4411,27 +5221,27 @@
             "default"
           ],
           "optimizationBailout": [],
-          "depth": 2
+          "depth": 1
         },
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1188,
+          "size": 1377,
           "sizes": {
-            "javascript": 1188
+            "javascript": 1377
           },
-          "built": false,
+          "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
           "name": "./src/modules/renderScores.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
-          "index": 39,
-          "preOrderIndex": 39,
-          "index2": 38,
-          "postOrderIndex": 38,
+          "index": 38,
+          "preOrderIndex": 38,
+          "index2": 36,
+          "postOrderIndex": 36,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4479,7 +5289,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderScores",
-              "loc": "12:2-14",
+              "loc": "15:2-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4493,7 +5303,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderScores",
-              "loc": "31:2-14",
+              "loc": "19:2-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4507,9 +5317,51 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderScores",
-              "loc": "34:0-12",
+              "loc": "24:2-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/renderScores",
+              "loc": "58:2-14",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+              "module": "./src/modules/getScores.js",
+              "moduleName": "./src/modules/getScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+              "resolvedModule": "./src/modules/getScores.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./renderScores",
+              "loc": "1:0-42",
+              "moduleId": "./src/modules/getScores.js",
+              "resolvedModuleId": "./src/modules/getScores.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+              "module": "./src/modules/getScores.js",
+              "moduleName": "./src/modules/getScores.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+              "resolvedModule": "./src/modules/getScores.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./renderScores",
+              "loc": "10:4-16",
+              "moduleId": "./src/modules/getScores.js",
+              "resolvedModuleId": "./src/modules/getScores.js"
             }
           ],
           "usedExports": null,
@@ -4536,8 +5388,8 @@
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
           "index": 36,
           "preOrderIndex": 36,
-          "index2": 36,
-          "postOrderIndex": 36,
+          "index2": 38,
+          "postOrderIndex": 38,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4585,7 +5437,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/saveScore",
-              "loc": "26:20-29",
+              "loc": "48:22-31",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4612,10 +5464,10 @@
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
           "name": "./src/modules/succesOrErrorMessage.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
-          "index": 38,
-          "preOrderIndex": 38,
-          "index2": 37,
-          "postOrderIndex": 37,
+          "index": 40,
+          "preOrderIndex": 40,
+          "index2": 39,
+          "postOrderIndex": 39,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4663,7 +5515,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/succesOrErrorMessage",
-              "loc": "27:2-23",
+              "loc": "49:4-25",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4765,7 +5617,7 @@
       ]
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
@@ -4781,14 +5633,12 @@
         "runtime"
       ],
       "files": [
-        "runtime.bundle.js",
-        "runtime.1ed9aa80ab27693e570d.hot-update.js"
+        "runtime.bundle.js"
       ],
       "auxiliaryFiles": [
-        "runtime.1ed9aa80ab27693e570d.hot-update.js.map",
         "runtime.bundle.js.map"
       ],
-      "hash": "f0dcda5e631347d7c3d8",
+      "hash": "962cc64e3afe1ff41b5f",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -4806,9 +5656,9 @@
             "runtime": 886
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/chunk loaded",
           "name": "webpack/runtime/chunk loaded",
           "nameForCondition": null,
@@ -4842,9 +5692,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -4878,9 +5728,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -4914,9 +5764,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -4950,9 +5800,9 @@
             "runtime": 93
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -4986,9 +5836,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -5022,9 +5872,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -5058,9 +5908,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -5094,9 +5944,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -5130,9 +5980,9 @@
             "runtime": 15954
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -5166,9 +6016,9 @@
             "runtime": 1508
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -5202,9 +6052,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -5238,9 +6088,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -5274,9 +6124,9 @@
             "runtime": 867
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -5440,21 +6290,21 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1062,
+      "size": 2438,
       "sizes": {
-        "javascript": 1062
+        "javascript": 2438
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
       "name": "./src/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
       "index": 22,
       "preOrderIndex": 22,
-      "index2": 41,
-      "postOrderIndex": 41,
+      "index2": 43,
+      "postOrderIndex": 43,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -5513,20 +6363,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "index"
       ],
@@ -7004,8 +7854,8 @@
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
       "index": 36,
       "preOrderIndex": 36,
-      "index2": 36,
-      "postOrderIndex": 36,
+      "index2": 38,
+      "postOrderIndex": 38,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -7052,7 +7902,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/saveScore",
-          "loc": "26:20-29",
+          "loc": "48:22-31",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -7068,19 +7918,19 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 116,
+      "size": 507,
       "sizes": {
-        "javascript": 116
+        "javascript": 507
       },
       "built": false,
       "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": true,
-      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
-      "name": "./src/modules/succesOrErrorMessage.js",
-      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
-      "index": 38,
-      "preOrderIndex": 38,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+      "name": "./src/modules/getScores.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+      "index": 37,
+      "preOrderIndex": 37,
       "index2": 37,
       "postOrderIndex": 37,
       "cacheable": true,
@@ -7098,7 +7948,7 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": "./src/modules/succesOrErrorMessage.js",
+      "id": "./src/modules/getScores.js",
       "issuerId": "./src/index.js",
       "chunks": [
         "index"
@@ -7114,8 +7964,8 @@
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
-          "userRequest": "./modules/succesOrErrorMessage",
-          "loc": "3:0-67",
+          "userRequest": "./modules/getScores",
+          "loc": "10:0-44",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7128,10 +7978,38 @@
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
-          "userRequest": "./modules/succesOrErrorMessage",
-          "loc": "27:2-23",
+          "userRequest": "./modules/getScores",
+          "loc": "23:2-11",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
+          "module": "./src/modules/saveScore.js",
+          "moduleName": "./src/modules/saveScore.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
+          "resolvedModule": "./src/modules/saveScore.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getScores",
+          "loc": "1:0-36",
+          "moduleId": "./src/modules/saveScore.js",
+          "resolvedModuleId": "./src/modules/saveScore.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
+          "module": "./src/modules/saveScore.js",
+          "moduleName": "./src/modules/saveScore.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
+          "resolvedModule": "./src/modules/saveScore.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getScores",
+          "loc": "15:4-13",
+          "moduleId": "./src/modules/saveScore.js",
+          "resolvedModuleId": "./src/modules/saveScore.js"
         }
       ],
       "usedExports": null,
@@ -7145,21 +8023,21 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1188,
+      "size": 1377,
       "sizes": {
-        "javascript": 1188
+        "javascript": 1377
       },
-      "built": false,
+      "built": true,
       "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
       "name": "./src/modules/renderScores.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
-      "index": 39,
-      "preOrderIndex": 39,
-      "index2": 38,
-      "postOrderIndex": 38,
+      "index": 38,
+      "preOrderIndex": 38,
+      "index2": 36,
+      "postOrderIndex": 36,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -7206,7 +8084,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderScores",
-          "loc": "12:2-14",
+          "loc": "15:2-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7220,7 +8098,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderScores",
-          "loc": "31:2-14",
+          "loc": "19:2-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7234,7 +8112,848 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderScores",
-          "loc": "34:0-12",
+          "loc": "24:2-14",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/renderScores",
+          "loc": "58:2-14",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+          "module": "./src/modules/getScores.js",
+          "moduleName": "./src/modules/getScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+          "resolvedModule": "./src/modules/getScores.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./renderScores",
+          "loc": "1:0-42",
+          "moduleId": "./src/modules/getScores.js",
+          "resolvedModuleId": "./src/modules/getScores.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+          "module": "./src/modules/getScores.js",
+          "moduleName": "./src/modules/getScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
+          "resolvedModule": "./src/modules/getScores.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./renderScores",
+          "loc": "10:4-16",
+          "moduleId": "./src/modules/getScores.js",
+          "resolvedModuleId": "./src/modules/getScores.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1162,
+      "sizes": {
+        "javascript": 1162
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
+      "name": "./src/modules/domElements.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
+      "index": 39,
+      "preOrderIndex": 39,
+      "index2": 35,
+      "postOrderIndex": 35,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/domElements.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "7:0-9:31",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "17:0-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "18:66-83",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "22:0-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "23:12-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "25:2-22",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "25:25-40",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "26:56-71",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "30:0-25",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "31:21-35",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "32:4-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "32:46-60",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "34:4-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "38:0-26",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "39:22-37",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "40:4-29",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "40:48-63",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "42:4-29",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "46:0-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "47:21-35",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "47:65-80",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "48:32-46",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "48:48-63",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "50:28-42",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "51:25-39",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "51:41-56",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "52:29-43",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "53:26-40",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "53:42-57",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "57:0-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "61:0-30",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "62:2-31",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "63:2-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "64:2-25",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "67:0-30",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "68:2-31",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "69:2-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "70:2-25",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "module": "./src/modules/checkGameID.js",
+          "moduleName": "./src/modules/checkGameID.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "resolvedModule": "./src/modules/checkGameID.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "1:0-82",
+          "moduleId": "./src/modules/checkGameID.js",
+          "resolvedModuleId": "./src/modules/checkGameID.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "module": "./src/modules/checkGameID.js",
+          "moduleName": "./src/modules/checkGameID.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "resolvedModule": "./src/modules/checkGameID.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "5:2-28",
+          "moduleId": "./src/modules/checkGameID.js",
+          "resolvedModuleId": "./src/modules/checkGameID.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "module": "./src/modules/checkGameID.js",
+          "moduleName": "./src/modules/checkGameID.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "resolvedModule": "./src/modules/checkGameID.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "6:2-25",
+          "moduleId": "./src/modules/checkGameID.js",
+          "resolvedModuleId": "./src/modules/checkGameID.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "module": "./src/modules/checkGameID.js",
+          "moduleName": "./src/modules/checkGameID.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "resolvedModule": "./src/modules/checkGameID.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "8:2-28",
+          "moduleId": "./src/modules/checkGameID.js",
+          "resolvedModuleId": "./src/modules/checkGameID.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "module": "./src/modules/checkGameID.js",
+          "moduleName": "./src/modules/checkGameID.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
+          "resolvedModule": "./src/modules/checkGameID.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "10:2-22",
+          "moduleId": "./src/modules/checkGameID.js",
+          "resolvedModuleId": "./src/modules/checkGameID.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "module": "./src/modules/renderScores.js",
+          "moduleName": "./src/modules/renderScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "resolvedModule": "./src/modules/renderScores.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "1:0-70",
+          "moduleId": "./src/modules/renderScores.js",
+          "resolvedModuleId": "./src/modules/renderScores.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "module": "./src/modules/renderScores.js",
+          "moduleName": "./src/modules/renderScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "resolvedModule": "./src/modules/renderScores.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "4:2-28",
+          "moduleId": "./src/modules/renderScores.js",
+          "resolvedModuleId": "./src/modules/renderScores.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "module": "./src/modules/renderScores.js",
+          "moduleName": "./src/modules/renderScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "resolvedModule": "./src/modules/renderScores.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "5:2-31",
+          "moduleId": "./src/modules/renderScores.js",
+          "resolvedModuleId": "./src/modules/renderScores.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "module": "./src/modules/renderScores.js",
+          "moduleName": "./src/modules/renderScores.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
+          "resolvedModule": "./src/modules/renderScores.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "6:2-28",
+          "moduleId": "./src/modules/renderScores.js",
+          "resolvedModuleId": "./src/modules/renderScores.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "addScoreBtn",
+        "boardSection",
+        "displayID",
+        "gameIdSpan",
+        "introSection",
+        "newGameBtn",
+        "newGameName",
+        "oldGameBtn",
+        "oldGameID",
+        "refreshBtn",
+        "smallNameError",
+        "smallScoreError",
+        "startNewGameD",
+        "startNewGameM",
+        "userName",
+        "userScore"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 116,
+      "sizes": {
+        "javascript": 116
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+      "name": "./src/modules/succesOrErrorMessage.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+      "index": 40,
+      "preOrderIndex": 40,
+      "index2": 39,
+      "postOrderIndex": 39,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/succesOrErrorMessage.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/succesOrErrorMessage",
+          "loc": "3:0-67",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/succesOrErrorMessage",
+          "loc": "49:4-25",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -7250,9 +8969,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 246,
+      "size": 430,
       "sizes": {
-        "javascript": 246
+        "javascript": 430
       },
       "built": false,
       "codeGenerated": false,
@@ -7261,8 +8980,8 @@
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
       "name": "./src/modules/checkGameID.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-      "index": 40,
-      "preOrderIndex": 40,
+      "index": 41,
+      "preOrderIndex": 41,
       "index2": 40,
       "postOrderIndex": 40,
       "cacheable": true,
@@ -7311,7 +9030,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/checkGameID",
-          "loc": "15:15-26",
+          "loc": "13:15-26",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -7319,6 +9038,287 @@
       "usedExports": null,
       "providedExports": [
         "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 554,
+      "sizes": {
+        "javascript": 554
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
+      "name": "./src/modules/newGameID.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
+      "index": 42,
+      "preOrderIndex": 42,
+      "index2": 41,
+      "postOrderIndex": 41,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/newGameID.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/newGameID",
+          "loc": "6:0-44",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/newGameID",
+          "loc": "18:56-65",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 882,
+      "sizes": {
+        "javascript": 882
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+      "name": "./src/modules/checkInput.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+      "index": 43,
+      "preOrderIndex": 43,
+      "index2": 42,
+      "postOrderIndex": 42,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/checkInput.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "11:0-71",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "31:6-20",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "32:31-45",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "39:6-21",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "40:32-47",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "47:6-20",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "47:49-64",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "50:13-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "51:10-24",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "52:13-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/checkInput",
+          "loc": "53:10-25",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "checkInputName",
+        "checkInputScore"
       ],
       "optimizationBailout": [],
       "depth": 1
@@ -8515,9 +10515,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 15757,
+      "size": 17575,
       "sizes": {
-        "javascript": 15757
+        "javascript": 17575
       },
       "built": false,
       "codeGenerated": false,
@@ -8808,170 +10808,6 @@
           "loc": "84:50-64",
           "moduleId": "./src/style.scss",
           "resolvedModuleId": "./src/style.scss"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 503,
-      "sizes": {
-        "javascript": 503
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
-      "name": "./src/modules/getScores.js",
-      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
-      "index": 37,
-      "preOrderIndex": 37,
-      "index2": 35,
-      "postOrderIndex": 35,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-      "issuerName": "./src/modules/saveScore.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "name": "./src/modules/saveScore.js",
-          "id": "./src/modules/saveScore.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/getScores.js",
-      "issuerId": "./src/modules/saveScore.js",
-      "chunks": [
-        "index"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "module": "./src/modules/saveScore.js",
-          "moduleName": "./src/modules/saveScore.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "resolvedModule": "./src/modules/saveScore.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getScores",
-          "loc": "1:0-36",
-          "moduleId": "./src/modules/saveScore.js",
-          "resolvedModuleId": "./src/modules/saveScore.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "module": "./src/modules/saveScore.js",
-          "moduleName": "./src/modules/saveScore.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
-          "resolvedModule": "./src/modules/saveScore.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getScores",
-          "loc": "15:4-13",
-          "moduleId": "./src/modules/saveScore.js",
-          "resolvedModuleId": "./src/modules/saveScore.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 552,
-      "sizes": {
-        "javascript": 552
-      },
-      "built": false,
-      "codeGenerated": false,
-      "buildTimeExecuted": false,
-      "cached": true,
-      "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
-      "name": "./src/modules/newGameID.js",
-      "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
-      "index": 41,
-      "preOrderIndex": 41,
-      "index2": 39,
-      "postOrderIndex": 39,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-      "issuerName": "./src/modules/checkGameID.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "name": "./src/modules/checkGameID.js",
-          "id": "./src/modules/checkGameID.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/newGameID.js",
-      "issuerId": "./src/modules/checkGameID.js",
-      "chunks": [
-        "index"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "module": "./src/modules/checkGameID.js",
-          "moduleName": "./src/modules/checkGameID.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "resolvedModule": "./src/modules/checkGameID.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./newGameID",
-          "loc": "1:0-36",
-          "moduleId": "./src/modules/checkGameID.js",
-          "resolvedModuleId": "./src/modules/checkGameID.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "module": "./src/modules/checkGameID.js",
-          "moduleName": "./src/modules/checkGameID.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
-          "resolvedModule": "./src/modules/checkGameID.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./newGameID",
-          "loc": "7:9-18",
-          "moduleId": "./src/modules/checkGameID.js",
-          "resolvedModuleId": "./src/modules/checkGameID.js"
         }
       ],
       "usedExports": null,
@@ -9671,9 +11507,9 @@
         "runtime": 886
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/chunk loaded",
       "name": "webpack/runtime/chunk loaded",
       "nameForCondition": null,
@@ -9706,9 +11542,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -9741,9 +11577,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -9776,9 +11612,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -9811,9 +11647,9 @@
         "runtime": 93
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -9846,9 +11682,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -9881,9 +11717,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -9916,9 +11752,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -9951,9 +11787,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -9986,9 +11822,9 @@
         "runtime": 15954
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -10021,9 +11857,9 @@
         "runtime": 1508
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -10056,9 +11892,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -10091,9 +11927,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -10126,9 +11962,9 @@
         "runtime": 867
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -10166,20 +12002,12 @@
           "size": 45206
         },
         {
-          "name": "runtime.1ed9aa80ab27693e570d.hot-update.js",
-          "size": 362
-        },
-        {
           "name": "index.bundle.js",
-          "size": 227208
-        },
-        {
-          "name": "index.1ed9aa80ab27693e570d.hot-update.js",
-          "size": 2311
+          "size": 237880
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 275087,
+      "assetsSize": 283086,
       "auxiliaryAssets": [
         {
           "name": "056dac04be287ef9dc02.png",
@@ -10190,16 +12018,8 @@
           "size": 2514092
         },
         {
-          "name": "index.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 1511
-        },
-        {
           "name": "index.bundle.js.map",
-          "size": 269239
-        },
-        {
-          "name": "runtime.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 257
+          "size": 277447
         },
         {
           "name": "runtime.bundle.js.map",
@@ -10207,7 +12027,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 7024646,
+      "auxiliaryAssetsSize": 7031086,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10226,20 +12046,12 @@
           "size": 45206
         },
         {
-          "name": "runtime.1ed9aa80ab27693e570d.hot-update.js",
-          "size": 362
-        },
-        {
           "name": "index.bundle.js",
-          "size": 227208
-        },
-        {
-          "name": "index.1ed9aa80ab27693e570d.hot-update.js",
-          "size": 2311
+          "size": 237880
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 275087,
+      "assetsSize": 283086,
       "auxiliaryAssets": [
         {
           "name": "056dac04be287ef9dc02.png",
@@ -10250,16 +12062,8 @@
           "size": 2514092
         },
         {
-          "name": "index.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 1511
-        },
-        {
           "name": "index.bundle.js.map",
-          "size": 269239
-        },
-        {
-          "name": "runtime.1ed9aa80ab27693e570d.hot-update.js.map",
-          "size": 257
+          "size": 277447
         },
         {
           "name": "runtime.bundle.js.map",
@@ -10267,7 +12071,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 7024646,
+      "auxiliaryAssetsSize": 7031086,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
