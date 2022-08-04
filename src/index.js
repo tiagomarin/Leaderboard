@@ -1,21 +1,26 @@
 import './style.scss';
-import newGameID from './modules/newGameID';
 import saveScore from './modules/saveScore';
 import successOrErrorMessage from './modules/succesOrErrorMessage';
 import renderScores from './modules/renderScores';
+import checkGameID from './modules/checkGameID';
 
-const checkGameID = () => {
-  if (window.localStorage.getItem('Game ID')) {
-    return JSON.parse(window.localStorage.getItem('Game ID'));
-  }
-  return newGameID('TiagosGame');
-};
+const newGame = document.getElementById('new-game');
+const userGameID = document.getElementById('game-id-user');
+
+newGame.addEventListener('click', () => {
+  window.localStorage.setItem('Game ID', JSON.stringify(userGameID.value));
+  renderScores()
+});
+
 const gameID = checkGameID();
-console.log(gameID);
 const refreshBtn = document.getElementById('refresh');
 const userName = document.getElementById('name');
 const userScore = document.getElementById('score');
 const submitBtn = document.getElementById('submit-btn');
+const displayID = document.getElementById('game-id');
+displayID.innerText = gameID;
+
+
 
 submitBtn.addEventListener('click', () => {
   const apiReturn = saveScore(userName.value, userScore.value, gameID);
@@ -26,5 +31,4 @@ refreshBtn.addEventListener('click', () => {
   renderScores();
 });
 
-// JSON.parse()
-// JSON.stringify()
+renderScores();
