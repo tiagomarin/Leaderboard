@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Righteous', cursive, sans-serif;
 }
 
 * {
@@ -12,104 +15,304 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 54%;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
 }
 
-main {
+body {
+  background-image: url(../src/assets/background-portrait.png);
+}
+
+.heading {
+  margin: 5rem 0 3rem;
+  display: flex;
+  justify-content: center;
+
   h1 {
-    margin: 5rem 0 3rem;
     font-size: 3.4rem;
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
   }
+}
 
-  #wrap {
-    width: 100%;
+.start-new-game {
+  padding: 0.4rem 1.2rem;
+  width: 50%;
+  height: max-content;
+  margin-left: 25%;
+  margin-top: 2rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+  -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+  box-shadow: 0 0 5px 2px #3d3d3d inset;
+  border: none;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+
+  div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 80%;
     gap: 2rem;
+    background-color: rgba($color: black, $alpha: 0.5);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+    -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+    box-shadow: 0 0 3px 1px #3d3d3d inset;
+    padding: 2rem;
 
-    h2 {
-      font-size: 1.8rem;
+    p {
+      font-size: 2rem;
+      color: white;
+      text-shadow: 2px 2px 3px black;
+    }
+
+    input {
+      width: 100%;
+      font-size: 1.6rem;
       line-height: 2.6rem;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+      -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+      box-shadow: 0 0 3px 1px #3d3d3d inset;
+      border: none;
+      text-indent: 1rem;
     }
 
-    >* {
-      width: 70%;
-    }
-
-    #recent-scores {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-
-      div {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      button {
-        padding: 0.4rem 1.2rem;
-        width: max-content;
-      }
-
-      table {
-        width: 100%;
-
-        tbody {
-          tr {
-            display: flex;
-            flex-direction: column;
-            border: 1px solid #000;
-            font-size: 1.4rem;
-            line-height: 2.2rem;
-
-            :nth-child(even) {
-              background-color: rgb(231, 231, 231);
-            }
-          }
-        }
-      }
-    }
-
-    #add-score {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      gap: 2rem;
-
-      form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-
-        >* {
-          width: 100%;
-        }
-
-        :nth-child(3) {
-          padding: 0.4rem 1.2rem;
-          width: max-content;
-        }
-      }
+    button {
+      padding: 0.4rem 1.2rem;
+      width: max-content;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+      -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+      box-shadow: 0 0 5px 2px #3d3d3d inset;
+      border: none;
     }
   }
 }
 
+#intro.hide {
+  display: none;
+}
+
+#wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+
+  >* {
+    width: 80%;
+  }
+}
+
+#wrap.hide {
+  display: none;
+}
+
+#recent-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgba($color: black, $alpha: 0.5);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+  -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+  box-shadow: 0 0 3px 1px #3d3d3d inset;
+  padding: 2rem;
+
+  div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 2rem;
+  }
+
+  button {
+    padding: 0.4rem 1.2rem;
+    width: max-content;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+    -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+    box-shadow: 0 0 5px 2px #3d3d3d inset;
+    border: none;
+  }
+}
+
+#scores-placeholder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+
+  div {
+    gap: 2rem;
+    align-items: center;
+
+    div {
+      width: 80%;
+      padding: 0.2rem 0;
+      display: flex;
+      justify-content: flex-start;
+      gap: 0;
+      background-color: #dddedd;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+      -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+      box-shadow: 0 0 5px 2px #3d3d3d inset;
+
+      img {
+        padding: 0 0.5rem;
+      }
+
+      .position {
+        text-align: center;
+        width: 30px;
+      }
+    }
+
+    .player {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+    }
+
+    .score {
+      width: 9rem;
+      text-align: right;
+      padding: 0.5rem 1rem;
+      font-size: 1.6rem;
+      background-color: #dddedd;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+      -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+      box-shadow: 0 0 5px 2px #3d3d3d inset;
+    }
+  }
+}
+
+#add-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba($color: black, $alpha: 0.5);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+  -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+  box-shadow: 0 0 3px 1px #3d3d3d inset;
+  padding: 2rem;
+
+  >* {
+    width: 100%;
+  }
+
+  input {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+    -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+    box-shadow: 0 0 3px 1px #3d3d3d inset;
+    border: none;
+    text-indent: 1rem;
+    margin-top: 2rem;
+  }
+
+  small {
+    color: orange;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+
+  button {
+    padding: 0.4rem 1.2rem;
+    width: max-content;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+    -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+    box-shadow: 0 0 3px 1px #3d3d3d inset;
+    border: none;
+    margin-top: 2rem;
+  }
+}
+
+#start-new-game-desktop {
+  display: none;
+}
+
+#display-ID {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+
+  p {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-color: rgba($color: black, $alpha: 0.7);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
+    -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
+    box-shadow: 0 0 3px 1px #3d3d3d inset;
+    padding: 2rem;
+
+    span {
+      color: rgb(0, 255, 242);
+    }
+  }
+}
+
+#display-ID.hide {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
+  html {
+    font-size: 70%;
+  }
+
+  body {
+    background: url(../src/assets/background-landscape.png) center fixed;
+  }
+
   main {
-    h1 {
-      margin: 5rem 0 3rem 10%;
-      text-align: left;
+    .heading {
+      justify-content: space-between;
+      align-items: center;
+      margin: 5rem 10% 3rem;
+
+      h1 {
+        font-size: 3.4rem;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 3px black;
+      }
+    }
+
+    #intro {
+      div {
+        width: 80%;
+      }
     }
 
     #wrap {
@@ -122,6 +325,12 @@ main {
         width: 50%;
       }
 
+      #scores-placeholder {
+        .position {
+          width: 35px;
+        }
+      }
+
       #add-score {
         width: 25%;
 
@@ -129,6 +338,24 @@ main {
           align-items: flex-end;
         }
       }
+    }
+  }
+
+  #start-new-game-desktop {
+    display: flex;
+  }
+
+  #start-new-game-mobile {
+    display: none;
+  }
+
+  .start-new-game {
+    width: max-content;
+  }
+
+  #display-ID {
+    p {
+      width: 80%;
     }
   }
 }
