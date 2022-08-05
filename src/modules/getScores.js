@@ -1,4 +1,4 @@
-import renderScores from "./renderScores";
+import renderScores from './renderScores';
 
 const getScores = async (gameid) => {
   try {
@@ -7,11 +7,12 @@ const getScores = async (gameid) => {
     data = data.result;
     data.sort((a, b) => b.score - a.score);
     window.localStorage.setItem('scoresDatabase', JSON.stringify(data));
-    renderScores()
+    renderScores();
     return data;
   } catch (error) {
     console.log(error);
   }
+  return true;
 };
 
 export default getScores;

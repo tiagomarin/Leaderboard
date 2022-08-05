@@ -5,18 +5,20 @@ import renderScores from './modules/renderScores';
 import checkGameID from './modules/checkGameID';
 import newGameID from './modules/newGameID';
 import {
-  newGameBtn, newGameName, oldGameBtn, oldGameID, refreshBtn, userName, userScore, addScoreBtn, displayID, gameIdSpan, introSection, boardSection, startNewGameD, startNewGameM, smallNameError, smallScoreError
+  newGameBtn, newGameName, oldGameBtn, oldGameID, refreshBtn, userName,
+  userScore, addScoreBtn, displayID, gameIdSpan, introSection, boardSection,
+  startNewGameD, startNewGameM, smallNameError, smallScoreError,
 } from './modules/domElements';
 import getScores from './modules/getScores';
 import { checkInputName, checkInputScore } from './modules/checkInput';
 
 const gameID = checkGameID();
-if (typeof gameID !== "undefined") {
+if (typeof gameID !== 'undefined') {
   renderScores();
 }
 newGameBtn.addEventListener('click', () => {
   window.localStorage.setItem('Game ID', JSON.stringify(newGameID(newGameName.value)));
-  renderScores()
+  renderScores();
 });
 
 oldGameBtn.addEventListener('click', () => {
@@ -26,20 +28,19 @@ oldGameBtn.addEventListener('click', () => {
   window.localStorage.setItem('Game ID', JSON.stringify(oldGameID.value));
 });
 
-
-userName.addEventListener('change', (e) => {
+userName.addEventListener('change', () => {
   if (checkInputName(userName.value) !== true) {
     smallNameError.innerText = checkInputName(userName.value);
   } else {
-    smallNameError.innerText = ""
+    smallNameError.innerText = '';
   }
 });
 
-userScore.addEventListener('change', (e) => {
+userScore.addEventListener('change', () => {
   if (checkInputScore(userScore.value) !== true) {
     smallScoreError.innerText = checkInputScore(userScore.value);
   } else {
-    smallScoreError.innerText = ""
+    smallScoreError.innerText = '';
   }
 });
 
@@ -59,13 +60,13 @@ refreshBtn.addEventListener('click', () => {
 });
 
 startNewGameD.addEventListener('click', () => {
-  introSection.classList.remove("hide");
-  boardSection.classList.add("hide");
-  displayID.classList.add("hide");
+  introSection.classList.remove('hide');
+  boardSection.classList.add('hide');
+  displayID.classList.add('hide');
 });
 
 startNewGameM.addEventListener('click', () => {
-  introSection.classList.remove("hide");
-  boardSection.classList.add("hide");
-  displayID.classList.add("hide");
+  introSection.classList.remove('hide');
+  boardSection.classList.add('hide');
+  displayID.classList.add('hide');
 });

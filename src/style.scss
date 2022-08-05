@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background-image: url(../assets/background-portrait.png);
+  background-image: url(../src/assets/background-portrait.png);
 }
 
 .heading {
@@ -36,7 +36,6 @@ body {
     color: white;
     text-shadow: 2px 2px 3px black;
   }
-
 }
 
 .start-new-game {
@@ -51,7 +50,6 @@ body {
   box-shadow: 0 0 5px 2px #3d3d3d inset;
   border: none;
 }
-
 
 #intro {
   display: flex;
@@ -84,7 +82,6 @@ body {
       -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
       -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
       box-shadow: 0 0 3px 1px #3d3d3d inset;
-      line-height: 2.6rem;
       border: none;
       text-indent: 1rem;
     }
@@ -168,9 +165,11 @@ body {
 
   div {
     gap: 2rem;
+    align-items: center;
 
     div {
       width: 80%;
+      padding: 0.2rem 0;
       display: flex;
       justify-content: flex-start;
       gap: 0;
@@ -181,12 +180,12 @@ body {
       box-shadow: 0 0 5px 2px #3d3d3d inset;
 
       img {
-        padding: 0 1.2rem;
+        padding: 0 0.5rem;
       }
 
       .position {
         text-align: center;
-        width: 40px;
+        width: 30px;
       }
     }
 
@@ -198,18 +197,16 @@ body {
     .score {
       width: 9rem;
       text-align: right;
-      padding: 0 1rem;
+      padding: 0.5rem 1rem;
       font-size: 1.6rem;
-      line-height: 2.6rem;
       background-color: #dddedd;
       border-radius: 10px;
       -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
-      -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
-      box-shadow: 0 0 3px 1px #3d3d3d inset;
+      -moz-box-shadow: 0 0 5px 2px #3d3d3d inset;
+      box-shadow: 0 0 5px 2px #3d3d3d inset;
     }
   }
 }
-
 
 #add-score {
   display: flex;
@@ -225,7 +222,6 @@ body {
 
   >* {
     width: 100%;
-
   }
 
   input {
@@ -235,7 +231,6 @@ body {
     -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
     -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
     box-shadow: 0 0 3px 1px #3d3d3d inset;
-    line-height: 2.6rem;
     border: none;
     text-indent: 1rem;
     margin-top: 2rem;
@@ -274,7 +269,7 @@ body {
     line-height: 1.6rem;
     color: white;
     text-shadow: 2px 2px 3px black;
-    background-color: rgba($color: black, $alpha: 0.5);
+    background-color: rgba($color: black, $alpha: 0.7);
     border-radius: 10px;
     -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
     -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
@@ -291,14 +286,13 @@ body {
   display: none;
 }
 
-
 @media screen and (min-width: 640px) {
   html {
-    font-size: 62.5%;
+    font-size: 70%;
   }
 
   body {
-    background: url(../assets/background-landscape.png) center fixed;
+    background: url(../src/assets/background-landscape.png) center fixed;
   }
 
   main {
@@ -329,6 +323,12 @@ body {
 
       #recent-scores {
         width: 50%;
+      }
+
+      #scores-placeholder {
+        .position {
+          width: 35px;
+        }
       }
 
       #add-score {

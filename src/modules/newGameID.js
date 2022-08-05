@@ -3,7 +3,7 @@ const newGameID = async (str) => {
     method: 'POST',
     body: JSON.stringify(
       {
-        "name": str,
+        name: str,
       },
     ),
     headers: {

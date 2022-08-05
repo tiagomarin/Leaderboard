@@ -16,5 +16,7 @@ const smallNameError = document.getElementById('error-name');
 const smallScoreError = document.getElementById('error-score');
 
 export {
-  newGameBtn, newGameName, oldGameBtn, oldGameID, refreshBtn, userName, userScore, addScoreBtn, displayID, gameIdSpan, introSection, boardSection, startNewGameD, startNewGameM, smallNameError, smallScoreError
-}
+  newGameBtn, newGameName, oldGameBtn, oldGameID, refreshBtn, userName, userScore,
+  addScoreBtn, displayID, gameIdSpan, introSection, boardSection, startNewGameD,
+  startNewGameM, smallNameError, smallScoreError,
+};

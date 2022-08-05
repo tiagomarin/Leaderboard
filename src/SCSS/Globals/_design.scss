@@ -1,8 +1,0 @@
-@mixin section-background {
-  background-color: rgba($color: black, $alpha: 0.5);
-  border-radius: 10px;
-  padding: 2rem;
-  -webkit-box-shadow: 0 0 50px 30px #3d3d3d inset;
-  -moz-box-shadow: 0 0 3px 1px #3d3d3d inset;
-  box-shadow: 0 0 3px 1px #3d3d3d inset;
-}
