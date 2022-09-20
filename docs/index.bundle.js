@@ -652,9 +652,9 @@ _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.startNewGameD.addEventListener
   _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.introSection.classList.toggle('hide');
   _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.boardSection.classList.toggle('hide');
   _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.displayID.classList.toggle('hide');
-  const textValue = _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.startNewGameD.value;
+  const textValue = _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.startNewGameD.innerText;
   if (textValue !== 'back') {
-    _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.startNewGameD.value('back');
+    _modules_domElements__WEBPACK_IMPORTED_MODULE_6__.startNewGameD.innerText('back');
   }
 });
 

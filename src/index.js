@@ -56,22 +56,13 @@ refreshBtn.addEventListener('click', () => {
 });
 
 startNewGameD.addEventListener('click', () => {
-  // introSection.classList.remove('hide');
-  // boardSection.classList.add('hide');
-  // displayID.classList.add('hide');
-  // startNewGameD.classList.add('hide');
-  introSection.classList.toggle('hide');
-  boardSection.classList.toggle('hide');
-  displayID.classList.toggle('hide');
-  const textValue = startNewGameD.value;
-  if (textValue !== 'back') {
-    startNewGameD.value('back');
-  }
+  introSection.classList.remove('hide');
+  boardSection.classList.add('hide');
+  displayID.classList.add('hide');
 });
 
 startNewGameM.addEventListener('click', () => {
   introSection.classList.remove('hide');
   boardSection.classList.add('hide');
   displayID.classList.add('hide');
-  startNewGameM.classList.add('hide');
 });

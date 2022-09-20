@@ -22,7 +22,7 @@ const checkInputScore = (score) => {
   } if (!isNum.test(score)) {
     return 'score field only accepts a number with no spaces';
   } if (score.length > 6) {
-    return 'name field accepts max 6 characters';
+    return 'score field accepts max 6 characters';
   }
   return true;
 };
