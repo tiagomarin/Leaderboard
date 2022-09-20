@@ -1,16 +1,18 @@
 {
-  "hash": "0c534dcb2e49fe079f2b",
+  "hash": "24b3170cfc10378c8c68",
   "version": "5.74.0",
-  "time": 843,
-  "builtAt": 1659662459443,
+  "time": 95,
+  "builtAt": 1663630414530,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-4/Leaderboard/dist",
   "assetsByChunkName": {
     "index": [
-      "index.bundle.js"
+      "index.bundle.js",
+      "index.95ceb5d632f74bdb67ec.hot-update.js"
     ],
     "runtime": [
-      "runtime.bundle.js"
+      "runtime.bundle.js",
+      "runtime.95ceb5d632f74bdb67ec.hot-update.js"
     ]
   },
   "assets": [
@@ -18,9 +20,9 @@
       "type": "asset",
       "name": "056dac04be287ef9dc02.png",
       "size": 4196508,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "src/assets/background-landscape.png",
         "immutable": true,
@@ -44,9 +46,9 @@
       "type": "asset",
       "name": "7a5d1ed00fa9c37cda53.png",
       "size": 2514092,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "src/assets/background-portrait.png",
         "immutable": true,
@@ -69,7 +71,7 @@
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 241110,
+      "size": 242452,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -78,7 +80,7 @@
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 241110
+        "size": 242452
       },
       "chunkNames": [
         "index"
@@ -91,13 +93,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 279605,
+          "size": 281092,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 279605
+            "size": 281092
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -176,9 +178,9 @@
       "type": "asset",
       "name": "eabfc14a90961ea1912c.png",
       "size": 5223,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "src/assets/medalbg2.png",
         "immutable": true,
@@ -202,9 +204,9 @@
       "type": "asset",
       "name": "12882d9db3c4813bc30c.png",
       "size": 5071,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "src/assets/medalbg3.png",
         "immutable": true,
@@ -228,9 +230,9 @@
       "type": "asset",
       "name": "1e819c3cd542b3d74216.png",
       "size": 4691,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "src/assets/medalbg1.png",
         "immutable": true,
@@ -253,12 +255,144 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 2056,
+      "size": 1930,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2056
+        "size": 1930
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.95ceb5d632f74bdb67ec.hot-update.js",
+      "size": 1322,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "95ceb5d632f74bdb67ec",
+        "related": {
+          "sourceMap": "index.95ceb5d632f74bdb67ec.hot-update.js.map"
+        },
+        "size": 1322
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "index.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 752,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 752
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "index"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "index"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "index"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js",
+      "size": 362,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "95ceb5d632f74bdb67ec",
+        "related": {
+          "sourceMap": "runtime.95ceb5d632f74bdb67ec.hot-update.js.map"
+        },
+        "size": 362
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 257,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 257
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "runtime"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "runtime"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "runtime"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.95ceb5d632f74bdb67ec.hot-update.json",
+      "size": 39,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "95ceb5d632f74bdb67ec",
+        "size": 39
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -276,9 +410,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 6926630,
+      "size": 6927848,
       "sizes": {
-        "javascript": 201045,
+        "javascript": 202263,
         "asset": 6725585
       },
       "names": [
@@ -289,7 +423,8 @@
         "runtime"
       ],
       "files": [
-        "index.bundle.js"
+        "index.bundle.js",
+        "index.95ceb5d632f74bdb67ec.hot-update.js"
       ],
       "auxiliaryFiles": [
         "056dac04be287ef9dc02.png",
@@ -297,9 +432,10 @@
         "1e819c3cd542b3d74216.png",
         "7a5d1ed00fa9c37cda53.png",
         "eabfc14a90961ea1912c.png",
+        "index.95ceb5d632f74bdb67ec.hot-update.js.map",
         "index.bundle.js.map"
       ],
-      "hash": "d6e4c2e7929adaced326",
+      "hash": "4d5edafb303d3cb76d3c",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -316,10 +452,10 @@
           "sizes": {
             "javascript": 4262
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/ansi-html-community/index.js",
           "name": "./node_modules/ansi-html-community/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/ansi-html-community/index.js",
@@ -414,23 +550,21 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 17707,
+          "size": 18029,
           "sizes": {
-            "javascript": 17707
+            "javascript": 18029
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
@@ -734,10 +868,10 @@
           "sizes": {
             "javascript": 2318
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
           "name": "./node_modules/css-loader/dist/runtime/api.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
@@ -823,9 +957,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 7:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 3
         },
         {
@@ -836,10 +968,10 @@
           "sizes": {
             "javascript": 598
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/getUrl.js",
           "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/getUrl.js",
@@ -939,9 +1071,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 3
         },
         {
@@ -952,10 +1082,10 @@
           "sizes": {
             "javascript": 688
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
           "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
@@ -1041,9 +1171,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 3
         },
         {
@@ -1054,10 +1182,10 @@
           "sizes": {
             "javascript": 14890
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/events/events.js",
           "name": "./node_modules/events/events.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/events/events.js",
@@ -1124,9 +1252,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 56:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1137,10 +1263,10 @@
           "sizes": {
             "javascript": 7923
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/index.js",
           "name": "./node_modules/html-entities/lib/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/index.js",
@@ -1235,9 +1361,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 2:16-20"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1248,10 +1372,10 @@
           "sizes": {
             "javascript": 74412
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/named-references.js",
           "name": "./node_modules/html-entities/lib/named-references.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/named-references.js",
@@ -1324,10 +1448,10 @@
           "sizes": {
             "javascript": 339
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/numeric-unicode-map.js",
           "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/numeric-unicode-map.js",
@@ -1399,10 +1523,10 @@
           "sizes": {
             "javascript": 537
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/surrogate-pairs.js",
           "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/surrogate-pairs.js",
@@ -1477,10 +1601,10 @@
           "sizes": {
             "javascript": 2500
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
           "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
@@ -1561,9 +1685,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 75:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1574,10 +1696,10 @@
           "sizes": {
             "javascript": 1005
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
           "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
@@ -1658,9 +1780,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 39:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1671,10 +1791,10 @@
           "sizes": {
             "javascript": 286
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
           "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
@@ -1755,9 +1875,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 11:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1768,10 +1886,10 @@
           "sizes": {
             "javascript": 300
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
           "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
@@ -1852,9 +1970,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 12:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1865,10 +1981,10 @@
           "sizes": {
             "javascript": 1412
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
           "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
@@ -1949,9 +2065,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 70:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -1962,10 +2076,10 @@
           "sizes": {
             "javascript": 382
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
           "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
@@ -2046,9 +2160,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 16:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -2059,10 +2171,10 @@
           "sizes": {
             "javascript": 1757
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
           "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
@@ -2198,10 +2310,10 @@
           "sizes": {
             "javascript": 7065
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js",
@@ -2253,10 +2365,10 @@
           "sizes": {
             "javascript": 26156
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/modules/logger/index.js",
           "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/modules/logger/index.js",
@@ -2351,9 +2463,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: exports is used directly at 823:32-39"
-          ],
+          "optimizationBailout": [],
           "depth": 2
         },
         {
@@ -2364,10 +2474,10 @@
           "sizes": {
             "javascript": 7441
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/overlay.js",
           "name": "./node_modules/webpack-dev-server/client/overlay.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/overlay.js",
@@ -2542,10 +2652,10 @@
           "sizes": {
             "javascript": 2033
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/socket.js",
           "name": "./node_modules/webpack-dev-server/client/socket.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/socket.js",
@@ -2621,10 +2731,10 @@
           "sizes": {
             "javascript": 4379
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/createSocketURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/createSocketURL.js",
@@ -2699,10 +2809,10 @@
           "sizes": {
             "javascript": 868
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
           "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
@@ -2782,10 +2892,10 @@
           "sizes": {
             "javascript": 548
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/log.js",
           "name": "./node_modules/webpack-dev-server/client/utils/log.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/log.js",
@@ -3169,10 +3279,10 @@
           "sizes": {
             "javascript": 1280
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/parseURL.js",
           "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/parseURL.js",
@@ -3247,10 +3357,10 @@
           "sizes": {
             "javascript": 2094
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/reloadApp.js",
@@ -3339,10 +3449,10 @@
           "sizes": {
             "javascript": 436
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/sendMessage.js",
           "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/sendMessage.js",
@@ -3501,10 +3611,10 @@
           "sizes": {
             "javascript": 692
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/stripAnsi.js",
           "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/stripAnsi.js",
@@ -3593,10 +3703,10 @@
           "sizes": {
             "javascript": 1629
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
           "name": "./node_modules/webpack/hot/dev-server.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
@@ -3648,10 +3758,10 @@
           "sizes": {
             "javascript": 75
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/emitter.js",
           "name": "./node_modules/webpack/hot/emitter.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/emitter.js",
@@ -3741,9 +3851,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 2:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -3754,10 +3862,10 @@
           "sizes": {
             "javascript": 1320
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log-apply-result.js",
           "name": "./node_modules/webpack/hot/log-apply-result.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log-apply-result.js",
@@ -3819,9 +3927,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 5:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -3832,10 +3938,10 @@
           "sizes": {
             "javascript": 1376
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log.js",
           "name": "./node_modules/webpack/hot/log.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log.js",
@@ -3847,20 +3953,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
-          "issuerName": "./node_modules/webpack/hot/dev-server.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "issuerPath": [
             {
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack/hot/dev-server.js",
+          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
             "index"
           ],
@@ -3939,9 +4045,7 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 21:0-14"
-          ],
+          "optimizationBailout": [],
           "depth": 1
         },
         {
@@ -3953,10 +4057,10 @@
             "javascript": 42,
             "asset": 4196508
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-landscape.png",
           "name": "./src/assets/background-landscape.png",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-landscape.png",
@@ -4026,10 +4130,10 @@
             "javascript": 42,
             "asset": 2514092
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-portrait.png",
           "name": "./src/assets/background-portrait.png",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-portrait.png",
@@ -4099,10 +4203,10 @@
             "javascript": 42,
             "asset": 4691
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg1.png",
           "name": "./src/assets/medalbg1.png",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg1.png",
@@ -4162,7 +4266,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/medalbg1.png",
-              "loc": "21:17-25",
+              "loc": "22:19-27",
               "moduleId": "./src/modules/renderScores.js",
               "resolvedModuleId": "./src/modules/renderScores.js"
             }
@@ -4181,10 +4285,10 @@
             "javascript": 42,
             "asset": 5223
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg2.png",
           "name": "./src/assets/medalbg2.png",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg2.png",
@@ -4244,7 +4348,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/medalbg2.png",
-              "loc": "38:17-25",
+              "loc": "41:19-27",
               "moduleId": "./src/modules/renderScores.js",
               "resolvedModuleId": "./src/modules/renderScores.js"
             }
@@ -4263,10 +4367,10 @@
             "javascript": 42,
             "asset": 5071
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg3.png",
           "name": "./src/assets/medalbg3.png",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg3.png",
@@ -4326,7 +4430,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/medalbg3.png",
-              "loc": "55:17-25",
+              "loc": "60:19-27",
               "moduleId": "./src/modules/renderScores.js",
               "resolvedModuleId": "./src/modules/renderScores.js"
             }
@@ -4340,14 +4444,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2443,
+          "size": 2524,
           "sizes": {
-            "javascript": 2443
+            "javascript": 2524
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
           "name": "./src/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
@@ -4396,14 +4500,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 448,
+          "size": 449,
           "sizes": {
-            "javascript": 448
+            "javascript": 449
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
           "name": "./src/modules/checkGameID.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
@@ -4474,14 +4578,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 817,
+          "size": 932,
           "sizes": {
-            "javascript": 817
+            "javascript": 932
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
           "name": "./src/modules/checkInput.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
@@ -4609,62 +4713,6 @@
               "loc": "48:49-64",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/checkInput",
-              "loc": "51:13-27",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/checkInput",
-              "loc": "52:10-24",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/checkInput",
-              "loc": "53:13-28",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/checkInput",
-              "loc": "54:10-25",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
             }
           ],
           "usedExports": null,
@@ -4679,14 +4727,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1168,
+          "size": 1252,
           "sizes": {
-            "javascript": 1168
+            "javascript": 1252
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
           "name": "./src/modules/domElements.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
@@ -5021,7 +5069,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "49:32-46",
+              "loc": "49:38-52",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5035,7 +5083,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "49:48-63",
+              "loc": "49:54-69",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5049,7 +5097,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "51:28-42",
+              "loc": "54:0-27",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5063,91 +5111,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "52:25-39",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "52:41-56",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "53:29-43",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "54:26-40",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "54:42-57",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "58:0-27",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/domElements",
-              "loc": "62:0-30",
+              "loc": "58:0-30",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5175,7 +5139,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "64:2-28",
+              "loc": "64:2-31",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5189,7 +5153,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "65:2-25",
+              "loc": "65:2-28",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5203,7 +5167,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "68:0-30",
+              "loc": "66:20-39",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5217,7 +5181,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "69:2-31",
+              "loc": "68:4-23",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5231,7 +5195,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "70:2-28",
+              "loc": "72:0-30",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5245,7 +5209,49 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/domElements",
-              "loc": "71:2-25",
+              "loc": "73:2-31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "74:2-28",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "75:2-25",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/domElements",
+              "loc": "76:2-29",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5320,6 +5326,48 @@
               "resolvedModuleId": "./src/modules/checkGameID.js"
             },
             {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "module": "./src/modules/checkInput.js",
+              "moduleName": "./src/modules/checkInput.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "resolvedModule": "./src/modules/checkInput.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "1:0-47",
+              "moduleId": "./src/modules/checkInput.js",
+              "resolvedModuleId": "./src/modules/checkInput.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "module": "./src/modules/checkInput.js",
+              "moduleName": "./src/modules/checkInput.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "resolvedModule": "./src/modules/checkInput.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "4:2-26",
+              "moduleId": "./src/modules/checkInput.js",
+              "resolvedModuleId": "./src/modules/checkInput.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "module": "./src/modules/checkInput.js",
+              "moduleName": "./src/modules/checkInput.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+              "resolvedModule": "./src/modules/checkInput.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "18:2-26",
+              "moduleId": "./src/modules/checkInput.js",
+              "resolvedModuleId": "./src/modules/checkInput.js"
+            },
+            {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
               "module": "./src/modules/renderScores.js",
               "moduleName": "./src/modules/renderScores.js",
@@ -5374,6 +5422,76 @@
               "loc": "9:2-28",
               "moduleId": "./src/modules/renderScores.js",
               "resolvedModuleId": "./src/modules/renderScores.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "module": "./src/modules/succesOrErrorMessage.js",
+              "moduleName": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "1:0-68",
+              "moduleId": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "module": "./src/modules/succesOrErrorMessage.js",
+              "moduleName": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "5:4-18",
+              "moduleId": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "module": "./src/modules/succesOrErrorMessage.js",
+              "moduleName": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "6:4-19",
+              "moduleId": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "module": "./src/modules/succesOrErrorMessage.js",
+              "moduleName": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "7:4-28",
+              "moduleId": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "module": "./src/modules/succesOrErrorMessage.js",
+              "moduleName": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+              "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./domElements",
+              "loc": "9:4-28",
+              "moduleId": "./src/modules/succesOrErrorMessage.js",
+              "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
             }
           ],
           "usedExports": null,
@@ -5383,6 +5501,7 @@
             "displayID",
             "gameIdSpan",
             "introSection",
+            "newEntryStatus",
             "newGameBtn",
             "newGameName",
             "oldGameBtn",
@@ -5402,14 +5521,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 523,
+          "size": 502,
           "sizes": {
-            "javascript": 523
+            "javascript": 502
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
           "name": "./src/modules/getScores.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
@@ -5512,10 +5631,10 @@
           "sizes": {
             "javascript": 552
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
           "name": "./src/modules/newGameID.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
@@ -5586,14 +5705,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3081,
+          "size": 3413,
           "sizes": {
-            "javascript": 3081
+            "javascript": 3413
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
           "name": "./src/modules/renderScores.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
@@ -5690,7 +5809,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderScores",
-              "loc": "59:2-14",
+              "loc": "55:2-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5734,14 +5853,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 557,
+          "size": 575,
           "sizes": {
-            "javascript": 557
+            "javascript": 575
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
           "name": "./src/modules/saveScore.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
@@ -5796,7 +5915,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/saveScore",
-              "loc": "49:22-31",
+              "loc": "49:28-37",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -5812,9 +5931,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 116,
+          "size": 402,
           "sizes": {
-            "javascript": 116
+            "javascript": 402
           },
           "built": true,
           "codeGenerated": true,
@@ -5894,10 +6013,10 @@
           "sizes": {
             "javascript": 2422
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
           "name": "./src/style.scss",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
@@ -5992,12 +6111,14 @@
         "runtime"
       ],
       "files": [
-        "runtime.bundle.js"
+        "runtime.bundle.js",
+        "runtime.95ceb5d632f74bdb67ec.hot-update.js"
       ],
       "auxiliaryFiles": [
+        "runtime.95ceb5d632f74bdb67ec.hot-update.js.map",
         "runtime.bundle.js.map"
       ],
-      "hash": "c2e312980f62cc37a7ca",
+      "hash": "bfc3a15fa5b97b83b0ae",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -6545,10 +6666,10 @@
       "sizes": {
         "javascript": 7065
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js",
@@ -6599,10 +6720,10 @@
       "sizes": {
         "javascript": 1629
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
       "name": "./node_modules/webpack/hot/dev-server.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
@@ -6649,14 +6770,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2443,
+      "size": 2524,
       "sizes": {
-        "javascript": 2443
+        "javascript": 2524
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
       "name": "./src/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
@@ -6708,10 +6829,10 @@
       "sizes": {
         "javascript": 1376
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log.js",
       "name": "./node_modules/webpack/hot/log.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log.js",
@@ -6722,20 +6843,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
-      "issuerName": "./node_modules/webpack/hot/dev-server.js",
+      "issuer": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "issuerPath": [
         {
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack/hot/dev-server.js",
+      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
         "index"
       ],
@@ -6814,9 +6935,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 21:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -6827,10 +6946,10 @@
       "sizes": {
         "javascript": 692
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/stripAnsi.js",
       "name": "./node_modules/webpack-dev-server/client/utils/stripAnsi.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/stripAnsi.js",
@@ -6918,10 +7037,10 @@
       "sizes": {
         "javascript": 1280
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/parseURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/parseURL.js",
@@ -6995,10 +7114,10 @@
       "sizes": {
         "javascript": 2033
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/socket.js",
       "name": "./node_modules/webpack-dev-server/client/socket.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/socket.js",
@@ -7073,10 +7192,10 @@
       "sizes": {
         "javascript": 548
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/log.js",
       "name": "./node_modules/webpack-dev-server/client/utils/log.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/log.js",
@@ -7459,10 +7578,10 @@
       "sizes": {
         "javascript": 7441
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/overlay.js",
       "name": "./node_modules/webpack-dev-server/client/overlay.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/overlay.js",
@@ -7636,10 +7755,10 @@
       "sizes": {
         "javascript": 436
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/sendMessage.js",
       "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/sendMessage.js",
@@ -7797,10 +7916,10 @@
       "sizes": {
         "javascript": 2094
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/reloadApp.js",
@@ -7888,10 +8007,10 @@
       "sizes": {
         "javascript": 75
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/emitter.js",
       "name": "./node_modules/webpack/hot/emitter.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/emitter.js",
@@ -7980,9 +8099,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 2:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -7993,10 +8110,10 @@
       "sizes": {
         "javascript": 4379
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/createSocketURL.js",
       "name": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/createSocketURL.js",
@@ -8070,10 +8187,10 @@
       "sizes": {
         "javascript": 1320
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log-apply-result.js",
       "name": "./node_modules/webpack/hot/log-apply-result.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack/hot/log-apply-result.js",
@@ -8134,9 +8251,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 5:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 1
     },
     {
@@ -8147,10 +8262,10 @@
       "sizes": {
         "javascript": 2422
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
       "name": "./src/style.scss",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
@@ -8206,14 +8321,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 557,
+      "size": 575,
       "sizes": {
-        "javascript": 557
+        "javascript": 575
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
       "name": "./src/modules/saveScore.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/saveScore.js",
@@ -8267,7 +8382,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/saveScore",
-          "loc": "49:22-31",
+          "loc": "49:28-37",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8283,14 +8398,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 523,
+      "size": 502,
       "sizes": {
-        "javascript": 523
+        "javascript": 502
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
       "name": "./src/modules/getScores.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/getScores.js",
@@ -8388,14 +8503,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3081,
+      "size": 3413,
       "sizes": {
-        "javascript": 3081
+        "javascript": 3413
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
       "name": "./src/modules/renderScores.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
@@ -8491,7 +8606,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderScores",
-          "loc": "59:2-14",
+          "loc": "55:2-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8535,14 +8650,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1168,
+      "size": 1252,
       "sizes": {
-        "javascript": 1168
+        "javascript": 1252
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
       "name": "./src/modules/domElements.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/domElements.js",
@@ -8876,7 +8991,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "49:32-46",
+          "loc": "49:38-52",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8890,7 +9005,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "49:48-63",
+          "loc": "49:54-69",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8904,7 +9019,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "51:28-42",
+          "loc": "54:0-27",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8918,91 +9033,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "52:25-39",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "52:41-56",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "53:29-43",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "54:26-40",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "54:42-57",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "58:0-27",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/domElements",
-          "loc": "62:0-30",
+          "loc": "58:0-30",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9030,7 +9061,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "64:2-28",
+          "loc": "64:2-31",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9044,7 +9075,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "65:2-25",
+          "loc": "65:2-28",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9058,7 +9089,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "68:0-30",
+          "loc": "66:20-39",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9072,7 +9103,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "69:2-31",
+          "loc": "68:4-23",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9086,7 +9117,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "70:2-28",
+          "loc": "72:0-30",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9100,7 +9131,49 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/domElements",
-          "loc": "71:2-25",
+          "loc": "73:2-31",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "74:2-28",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "75:2-25",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/domElements",
+          "loc": "76:2-29",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -9175,6 +9248,48 @@
           "resolvedModuleId": "./src/modules/checkGameID.js"
         },
         {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "module": "./src/modules/checkInput.js",
+          "moduleName": "./src/modules/checkInput.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "resolvedModule": "./src/modules/checkInput.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/checkInput.js",
+          "resolvedModuleId": "./src/modules/checkInput.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "module": "./src/modules/checkInput.js",
+          "moduleName": "./src/modules/checkInput.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "resolvedModule": "./src/modules/checkInput.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "4:2-26",
+          "moduleId": "./src/modules/checkInput.js",
+          "resolvedModuleId": "./src/modules/checkInput.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "module": "./src/modules/checkInput.js",
+          "moduleName": "./src/modules/checkInput.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
+          "resolvedModule": "./src/modules/checkInput.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "18:2-26",
+          "moduleId": "./src/modules/checkInput.js",
+          "resolvedModuleId": "./src/modules/checkInput.js"
+        },
+        {
           "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/renderScores.js",
           "module": "./src/modules/renderScores.js",
           "moduleName": "./src/modules/renderScores.js",
@@ -9229,6 +9344,76 @@
           "loc": "9:2-28",
           "moduleId": "./src/modules/renderScores.js",
           "resolvedModuleId": "./src/modules/renderScores.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "module": "./src/modules/succesOrErrorMessage.js",
+          "moduleName": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "1:0-68",
+          "moduleId": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "module": "./src/modules/succesOrErrorMessage.js",
+          "moduleName": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "5:4-18",
+          "moduleId": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "module": "./src/modules/succesOrErrorMessage.js",
+          "moduleName": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "6:4-19",
+          "moduleId": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "module": "./src/modules/succesOrErrorMessage.js",
+          "moduleName": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "7:4-28",
+          "moduleId": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "module": "./src/modules/succesOrErrorMessage.js",
+          "moduleName": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/succesOrErrorMessage.js",
+          "resolvedModule": "./src/modules/succesOrErrorMessage.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./domElements",
+          "loc": "9:4-28",
+          "moduleId": "./src/modules/succesOrErrorMessage.js",
+          "resolvedModuleId": "./src/modules/succesOrErrorMessage.js"
         }
       ],
       "usedExports": null,
@@ -9238,6 +9423,7 @@
         "displayID",
         "gameIdSpan",
         "introSection",
+        "newEntryStatus",
         "newGameBtn",
         "newGameName",
         "oldGameBtn",
@@ -9257,9 +9443,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 116,
+      "size": 402,
       "sizes": {
-        "javascript": 116
+        "javascript": 402
       },
       "built": true,
       "codeGenerated": true,
@@ -9334,14 +9520,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 448,
+      "size": 449,
       "sizes": {
-        "javascript": 448
+        "javascript": 449
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
       "name": "./src/modules/checkGameID.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkGameID.js",
@@ -9415,10 +9601,10 @@
       "sizes": {
         "javascript": 552
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
       "name": "./src/modules/newGameID.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/newGameID.js",
@@ -9488,14 +9674,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 817,
+      "size": 932,
       "sizes": {
-        "javascript": 817
+        "javascript": 932
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
       "name": "./src/modules/checkInput.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/modules/checkInput.js",
@@ -9622,62 +9808,6 @@
           "loc": "48:49-64",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/checkInput",
-          "loc": "51:13-27",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/checkInput",
-          "loc": "52:10-24",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/checkInput",
-          "loc": "53:13-28",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/checkInput",
-          "loc": "54:10-25",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
         }
       ],
       "usedExports": null,
@@ -9696,10 +9826,10 @@
       "sizes": {
         "javascript": 868
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
       "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
@@ -9778,10 +9908,10 @@
       "sizes": {
         "javascript": 1757
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
       "name": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
@@ -9916,10 +10046,10 @@
       "sizes": {
         "javascript": 26156
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/modules/logger/index.js",
       "name": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/webpack-dev-server/client/modules/logger/index.js",
@@ -10013,9 +10143,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: exports is used directly at 823:32-39"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10026,10 +10154,10 @@
       "sizes": {
         "javascript": 4262
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/ansi-html-community/index.js",
       "name": "./node_modules/ansi-html-community/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/ansi-html-community/index.js",
@@ -10123,9 +10251,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10136,10 +10262,10 @@
       "sizes": {
         "javascript": 7923
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/index.js",
       "name": "./node_modules/html-entities/lib/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/index.js",
@@ -10233,9 +10359,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 2:16-20"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10246,10 +10370,10 @@
       "sizes": {
         "javascript": 14890
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/events/events.js",
       "name": "./node_modules/events/events.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/events/events.js",
@@ -10315,9 +10439,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 56:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10328,10 +10450,10 @@
       "sizes": {
         "javascript": 2500
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
       "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
@@ -10411,9 +10533,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 75:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10424,10 +10544,10 @@
       "sizes": {
         "javascript": 1412
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
       "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleDomAPI.js",
@@ -10507,9 +10627,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 70:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10520,10 +10638,10 @@
       "sizes": {
         "javascript": 1005
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
       "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertBySelector.js",
@@ -10603,9 +10721,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 39:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10616,10 +10732,10 @@
       "sizes": {
         "javascript": 300
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
       "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
@@ -10699,9 +10815,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 12:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10712,10 +10826,10 @@
       "sizes": {
         "javascript": 286
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
       "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/insertStyleElement.js",
@@ -10795,9 +10909,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 11:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
@@ -10808,10 +10920,10 @@
       "sizes": {
         "javascript": 382
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
       "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/style-loader/dist/runtime/styleTagTransform.js",
@@ -10891,23 +11003,21 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 16:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 2
     },
     {
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 17707,
+      "size": 18029,
       "sizes": {
-        "javascript": 17707
+        "javascript": 18029
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/sass-loader/dist/cjs.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/style.scss",
@@ -11211,10 +11321,10 @@
         "javascript": 42,
         "asset": 4691
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg1.png",
       "name": "./src/assets/medalbg1.png",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg1.png",
@@ -11273,7 +11383,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../assets/medalbg1.png",
-          "loc": "21:17-25",
+          "loc": "22:19-27",
           "moduleId": "./src/modules/renderScores.js",
           "resolvedModuleId": "./src/modules/renderScores.js"
         }
@@ -11292,10 +11402,10 @@
         "javascript": 42,
         "asset": 5223
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg2.png",
       "name": "./src/assets/medalbg2.png",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg2.png",
@@ -11354,7 +11464,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../assets/medalbg2.png",
-          "loc": "38:17-25",
+          "loc": "41:19-27",
           "moduleId": "./src/modules/renderScores.js",
           "resolvedModuleId": "./src/modules/renderScores.js"
         }
@@ -11373,10 +11483,10 @@
         "javascript": 42,
         "asset": 5071
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg3.png",
       "name": "./src/assets/medalbg3.png",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/medalbg3.png",
@@ -11435,7 +11545,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../assets/medalbg3.png",
-          "loc": "55:17-25",
+          "loc": "60:19-27",
           "moduleId": "./src/modules/renderScores.js",
           "resolvedModuleId": "./src/modules/renderScores.js"
         }
@@ -11453,10 +11563,10 @@
       "sizes": {
         "javascript": 74412
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/named-references.js",
       "name": "./node_modules/html-entities/lib/named-references.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/named-references.js",
@@ -11528,10 +11638,10 @@
       "sizes": {
         "javascript": 339
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/numeric-unicode-map.js",
       "name": "./node_modules/html-entities/lib/numeric-unicode-map.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/numeric-unicode-map.js",
@@ -11602,10 +11712,10 @@
       "sizes": {
         "javascript": 537
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/surrogate-pairs.js",
       "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-entities/lib/surrogate-pairs.js",
@@ -11679,10 +11789,10 @@
       "sizes": {
         "javascript": 688
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
       "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/sourceMaps.js",
@@ -11767,9 +11877,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -11780,10 +11888,10 @@
       "sizes": {
         "javascript": 2318
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
       "name": "./node_modules/css-loader/dist/runtime/api.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/api.js",
@@ -11868,9 +11976,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 7:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -11881,10 +11987,10 @@
       "sizes": {
         "javascript": 598
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/getUrl.js",
       "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/css-loader/dist/runtime/getUrl.js",
@@ -11983,9 +12089,7 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -11997,10 +12101,10 @@
         "javascript": 42,
         "asset": 2514092
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-portrait.png",
       "name": "./src/assets/background-portrait.png",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-portrait.png",
@@ -12069,10 +12173,10 @@
         "javascript": 42,
         "asset": 4196508
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "asset/resource|/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-landscape.png",
       "name": "./src/assets/background-landscape.png",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/assets/background-landscape.png",
@@ -12636,12 +12740,20 @@
           "size": 45206
         },
         {
+          "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js",
+          "size": 362
+        },
+        {
           "name": "index.bundle.js",
-          "size": 241110
+          "size": 242452
+        },
+        {
+          "name": "index.95ceb5d632f74bdb67ec.hot-update.js",
+          "size": 1322
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 286316,
+      "assetsSize": 289342,
       "auxiliaryAssets": [
         {
           "name": "056dac04be287ef9dc02.png",
@@ -12664,8 +12776,16 @@
           "size": 5223
         },
         {
+          "name": "index.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 752
+        },
+        {
           "name": "index.bundle.js.map",
-          "size": 279605
+          "size": 281092
+        },
+        {
+          "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 257
         },
         {
           "name": "runtime.bundle.js.map",
@@ -12673,7 +12793,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 7048229,
+      "auxiliaryAssetsSize": 7050725,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -12692,12 +12812,20 @@
           "size": 45206
         },
         {
+          "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js",
+          "size": 362
+        },
+        {
           "name": "index.bundle.js",
-          "size": 241110
+          "size": 242452
+        },
+        {
+          "name": "index.95ceb5d632f74bdb67ec.hot-update.js",
+          "size": 1322
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 286316,
+      "assetsSize": 289342,
       "auxiliaryAssets": [
         {
           "name": "056dac04be287ef9dc02.png",
@@ -12720,8 +12848,16 @@
           "size": 5223
         },
         {
+          "name": "index.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 752
+        },
+        {
           "name": "index.bundle.js.map",
-          "size": 279605
+          "size": 281092
+        },
+        {
+          "name": "runtime.95ceb5d632f74bdb67ec.hot-update.js.map",
+          "size": 257
         },
         {
           "name": "runtime.bundle.js.map",
@@ -12729,7 +12865,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 7048229,
+      "auxiliaryAssetsSize": 7050725,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -12739,668 +12875,5 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": [
-    {
-      "name": "HtmlWebpackCompiler",
-      "hash": "9e8c50ebb4169bfa71dc",
-      "version": "5.74.0",
-      "time": 116,
-      "builtAt": 1659662458733,
-      "publicPath": "",
-      "outputPath": "/home/tlm-89/repos/Module2/week-4/Leaderboard/dist",
-      "assetsByChunkName": {},
-      "assets": [],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 3082,
-          "sizes": {
-            "javascript": 2348,
-            "runtime": 734
-          },
-          "names": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "idHints": [],
-          "runtime": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "files": [],
-          "auxiliaryFiles": [],
-          "hash": "eb9c255895da9c02de62",
-          "childrenByOrder": {},
-          "id": "HtmlWebpackPlugin_0-0",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "layer": null,
-              "size": 2271,
-              "sizes": {
-                "javascript": 2271
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "1:111-125",
-                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-                  "loc": "HtmlWebpackPlugin_0-0",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 1:111-125"
-              ],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/esm",
-              "layer": null,
-              "size": 77,
-              "sizes": {
-                "javascript": 77
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "issuerId": null,
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-                  "loc": "HtmlWebpackPlugin_0-0",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 88,
-              "sizes": {
-                "runtime": 88
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 274,
-              "sizes": {
-                "runtime": 274
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 27,
-              "sizes": {
-                "runtime": 27
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/publicPath",
-              "name": "webpack/runtime/publicPath",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "layer": null,
-              "size": 345,
-              "sizes": {
-                "runtime": 345
-              },
-              "built": false,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "webpack/runtime/require chunk loading",
-              "name": "webpack/runtime/require chunk loading",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                "HtmlWebpackPlugin_0-0"
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-0",
-              "request": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html"
-            },
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0-0",
-              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/esm",
-          "layer": null,
-          "size": 77,
-          "sizes": {
-            "javascript": 77
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "index": 0,
-          "preOrderIndex": 0,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
-              "loc": "HtmlWebpackPlugin_0-0",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 2271,
-          "sizes": {
-            "javascript": 2271
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-          "nameForCondition": "/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-          "issuerId": null,
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "1:111-125",
-              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "/home/tlm-89/repos/Module2/week-4/Leaderboard/node_modules/html-webpack-plugin/lib/loader.js!/home/tlm-89/repos/Module2/week-4/Leaderboard/src/index.html",
-              "loc": "HtmlWebpackPlugin_0-0",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": null,
-              "active": true,
-              "explanation": "used as library export",
-              "userRequest": null,
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:111-125"
-          ],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 88,
-          "sizes": {
-            "runtime": 88
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/hasOwnProperty shorthand",
-          "name": "webpack/runtime/hasOwnProperty shorthand",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 274,
-          "sizes": {
-            "runtime": 274
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 27,
-          "sizes": {
-            "runtime": 27
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/publicPath",
-          "name": "webpack/runtime/publicPath",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 345,
-          "sizes": {
-            "runtime": 345
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/require chunk loading",
-          "name": "webpack/runtime/require chunk loading",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        }
-      ],
-      "entrypoints": {
-        "HtmlWebpackPlugin_0-0": {
-          "name": "HtmlWebpackPlugin_0-0",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "HtmlWebpackPlugin_0-0": {
-          "name": "HtmlWebpackPlugin_0-0",
-          "chunks": [
-            "HtmlWebpackPlugin_0-0"
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    }
-  ]
+  "children": []
 }

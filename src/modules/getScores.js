@@ -10,9 +10,8 @@ const getScores = async (gameid) => {
     renderScores();
     return data;
   } catch (error) {
-    console.log(error);
+    return error;
   }
-  return true;
 };
 
 export default getScores;

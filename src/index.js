@@ -13,7 +13,7 @@ import getScores from './modules/getScores';
 import { checkInputName, checkInputScore } from './modules/checkInput';
 
 const gameID = checkGameID();
-if (typeof gameID !== 'undefined') {
+if (gameID !== ' ') {
   renderScores();
 }
 newGameBtn.addEventListener('click', () => {
@@ -44,14 +44,10 @@ userScore.addEventListener('change', () => {
   }
 });
 
-addScoreBtn.addEventListener('click', () => {
+addScoreBtn.addEventListener('click', async () => {
   if (checkInputName(userName.value) === true && checkInputScore(userScore.value) === true) {
-    const apiReturn = saveScore(userName.value, userScore.value, gameID);
+    const apiReturn = await saveScore(userName.value, userScore.value, gameID);
     successOrErrorMessage(apiReturn);
-  } else if (checkInputName(userName.value) !== true) {
-    alert(checkInputName(userName.value, userScore.value));
-  } else if (checkInputScore(userName.value) !== true) {
-    alert(checkInputScore(userName.value, userScore.value));
   }
 });
 
@@ -60,13 +56,22 @@ refreshBtn.addEventListener('click', () => {
 });
 
 startNewGameD.addEventListener('click', () => {
-  introSection.classList.remove('hide');
-  boardSection.classList.add('hide');
-  displayID.classList.add('hide');
+  // introSection.classList.remove('hide');
+  // boardSection.classList.add('hide');
+  // displayID.classList.add('hide');
+  // startNewGameD.classList.add('hide');
+  introSection.classList.toggle('hide');
+  boardSection.classList.toggle('hide');
+  displayID.classList.toggle('hide');
+  const textValue = startNewGameD.value;
+  if (textValue !== 'back') {
+    startNewGameD.value('back');
+  }
 });
 
 startNewGameM.addEventListener('click', () => {
   introSection.classList.remove('hide');
   boardSection.classList.add('hide');
   displayID.classList.add('hide');
+  startNewGameM.classList.add('hide');
 });

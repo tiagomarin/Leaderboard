@@ -1,4 +1,7 @@
+import { newEntryStatus } from './domElements';
+
 const checkInputName = (name) => {
+  newEntryStatus.innerText = '';
   const noSpaces = (str) => str.replace(/\s/g, '').length < 3;
   if (name === '') {
     return "name field can't be empty";
@@ -12,6 +15,7 @@ const checkInputName = (name) => {
   return true;
 };
 const checkInputScore = (score) => {
+  newEntryStatus.innerText = '';
   const isNum = /^[0-9]+$/;
   if (score === '') {
     return 'score cannot be empty';

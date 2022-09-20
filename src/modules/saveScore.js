@@ -13,10 +13,10 @@ const saveScore = async (name, score, gameID) => {
       },
     });
     getScores(gameID);
-    return response.text;
+    const message = await response.json();
+    return message.result;
   } catch (error) {
-    console.log(error);
+    return error;
   }
-  return saveScore;
 };
 export default saveScore;
